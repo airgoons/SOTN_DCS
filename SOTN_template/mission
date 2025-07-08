@@ -41,8 +41,8 @@ mission =
 	["requiredModules"] = {},
 	["date"] = 
 	{
-		["Year"] = 1986,
 		["Day"] = 1,
+		["Year"] = 1986,
 		["Month"] = 6,
 	}, -- end of ["date"]
 	["trig"] = 
@@ -104,24 +104,24 @@ mission =
 					["Blue"] = false,
 					["Red"] = false,
 				}, -- end of ["ForwardObserver"]
-				["ArtilleryCommander"] = 
-				{
-					["Neutral"] = false,
-					["Blue"] = false,
-					["Red"] = false,
-				}, -- end of ["ArtilleryCommander"]
-				["Spectrator"] = 
-				{
-					["Neutral"] = false,
-					["Blue"] = false,
-					["Red"] = false,
-				}, -- end of ["Spectrator"]
 				["Pilot"] = 
 				{
 					["Neutral"] = false,
 					["Blue"] = false,
 					["Red"] = false,
 				}, -- end of ["Pilot"]
+				["Spectrator"] = 
+				{
+					["Neutral"] = false,
+					["Blue"] = false,
+					["Red"] = false,
+				}, -- end of ["Spectrator"]
+				["ArtilleryCommander"] = 
+				{
+					["Neutral"] = false,
+					["Blue"] = false,
+					["Red"] = false,
+				}, -- end of ["ArtilleryCommander"]
 			}, -- end of ["hiddenOnF10Map"]
 		}, -- end of ["options"]
 		["layers"] = 
@@ -159,8 +159,8 @@ mission =
 						["thickness"] = 16,
 						["colorString"] = "0xff0000ff",
 						["style"] = "dot",
-						["lineMode"] = "segments",
-						["mapX"] = -8214.4187079729,
+						["layerName"] = "Common",
+						["name"] = "Wall",
 						["points"] = 
 						{
 							[31] = 
@@ -543,16 +543,16 @@ mission =
 								["y"] = -40746.515745244,
 								["x"] = -97733.289556015,
 							}, -- end of [28]
-							[47] = 
+							[83] = 
 							{
-								["y"] = -23642.41442617,
-								["x"] = -146103.07973006,
-							}, -- end of [47]
-							[63] = 
+								["y"] = -75660.569770658,
+								["x"] = -266545.00740874,
+							}, -- end of [83]
+							[79] = 
 							{
-								["y"] = -35219.470880095,
-								["x"] = -201865.41626548,
-							}, -- end of [63]
+								["y"] = -71887.386699982,
+								["x"] = -249500.62871017,
+							}, -- end of [79]
 							[78] = 
 							{
 								["y"] = -69194.070738502,
@@ -563,39 +563,39 @@ mission =
 								["y"] = -37051.12768243,
 								["x"] = -100845.19529312,
 							}, -- end of [29]
-							[67] = 
-							{
-								["y"] = -38492.771198679,
-								["x"] = -214055.63814158,
-							}, -- end of [67]
-							[71] = 
-							{
-								["y"] = -38944.260897794,
-								["x"] = -225794.37031858,
-							}, -- end of [71]
 							[75] = 
 							{
 								["y"] = -66372.260119033,
 								["x"] = -236968.74037167,
 							}, -- end of [75]
+							[71] = 
+							{
+								["y"] = -38944.260897794,
+								["x"] = -225794.37031858,
+							}, -- end of [71]
+							[67] = 
+							{
+								["y"] = -38492.771198679,
+								["x"] = -214055.63814158,
+							}, -- end of [67]
 							[30] = 
 							{
 								["y"] = -19934.286236022,
 								["x"] = -119267.94151189,
 							}, -- end of [30]
-							[79] = 
+							[63] = 
 							{
-								["y"] = -71887.386699982,
-								["x"] = -249500.62871017,
-							}, -- end of [79]
-							[83] = 
+								["y"] = -35219.470880095,
+								["x"] = -201865.41626548,
+							}, -- end of [63]
+							[47] = 
 							{
-								["y"] = -75660.569770658,
-								["x"] = -266545.00740874,
-							}, -- end of [83]
+								["y"] = -23642.41442617,
+								["x"] = -146103.07973006,
+							}, -- end of [47]
 						}, -- end of ["points"]
-						["name"] = "Wall",
-						["layerName"] = "Common",
+						["mapX"] = -8214.4187079729,
+						["lineMode"] = "segments",
 					}, -- end of [1]
 				}, -- end of ["objects"]
 			}, -- end of [4]
@@ -614,8 +614,8 @@ mission =
 						["thickness"] = 8,
 						["colorString"] = "0x0080ffff",
 						["style"] = "solid",
-						["lineMode"] = "segments",
-						["mapX"] = -100058.15194227,
+						["layerName"] = "Author",
+						["name"] = "Line-2",
 						["points"] = 
 						{
 							[13] = 
@@ -663,16 +663,16 @@ mission =
 								["y"] = -113605.09692362,
 								["x"] = 32647.91226543,
 							}, -- end of [10]
+							[14] = 
+							{
+								["y"] = -229668.02746962,
+								["x"] = 90589.053655697,
+							}, -- end of [14]
 							[3] = 
 							{
 								["y"] = -56862.784462299,
 								["x"] = 2529.9120205684,
 							}, -- end of [3]
-							[11] = 
-							{
-								["y"] = -123845.21700687,
-								["x"] = 40840.008332033,
-							}, -- end of [11]
 							[6] = 
 							{
 								["y"] = -81077.656659168,
@@ -683,14 +683,14 @@ mission =
 								["y"] = -133362.50508425,
 								["x"] = 69391.872564162,
 							}, -- end of [12]
-							[14] = 
+							[11] = 
 							{
-								["y"] = -229668.02746962,
-								["x"] = 90589.053655697,
-							}, -- end of [14]
+								["y"] = -123845.21700687,
+								["x"] = 40840.008332033,
+							}, -- end of [11]
 						}, -- end of ["points"]
-						["name"] = "Line-2",
-						["layerName"] = "Author",
+						["mapX"] = -100058.15194227,
+						["lineMode"] = "segments",
 					}, -- end of [1]
 					[2] = 
 					{
@@ -701,8 +701,8 @@ mission =
 						["thickness"] = 8,
 						["colorString"] = "0x0080ffff",
 						["style"] = "solid",
-						["lineMode"] = "segments",
-						["mapX"] = -259012.33461068,
+						["layerName"] = "Author",
+						["name"] = "Line-3",
 						["points"] = 
 						{
 							[6] = 
@@ -736,8 +736,8 @@ mission =
 								["x"] = -91210.432843142,
 							}, -- end of [5]
 						}, -- end of ["points"]
-						["name"] = "Line-3",
-						["layerName"] = "Author",
+						["mapX"] = -259012.33461068,
+						["lineMode"] = "segments",
 					}, -- end of [2]
 				}, -- end of ["objects"]
 			}, -- end of [5]
@@ -814,6 +814,28 @@ mission =
 	}, -- end of ["map"]
 	["coalitions"] = 
 	{
+		["blue"] = 
+		{
+			[1] = 21,
+			[2] = 23,
+			[3] = 11,
+			[4] = 8,
+			[5] = 13,
+			[6] = 5,
+			[7] = 6,
+			[8] = 31,
+			[9] = 15,
+			[10] = 20,
+			[11] = 36,
+			[12] = 12,
+			[13] = 45,
+			[14] = 9,
+			[15] = 46,
+			[16] = 10,
+			[17] = 3,
+			[18] = 4,
+			[19] = 2,
+		}, -- end of ["blue"]
 		["neutrals"] = 
 		{
 			[1] = 18,
@@ -876,28 +898,6 @@ mission =
 			[58] = 50,
 			[59] = 48,
 		}, -- end of ["neutrals"]
-		["blue"] = 
-		{
-			[1] = 21,
-			[2] = 23,
-			[3] = 11,
-			[4] = 8,
-			[5] = 13,
-			[6] = 5,
-			[7] = 6,
-			[8] = 31,
-			[9] = 15,
-			[10] = 20,
-			[11] = 36,
-			[12] = 12,
-			[13] = 45,
-			[14] = 9,
-			[15] = 46,
-			[16] = 10,
-			[17] = 3,
-			[18] = 4,
-			[19] = 2,
-		}, -- end of ["blue"]
 		["red"] = 
 		{
 			[1] = 25,
@@ -924,17 +924,6 @@ mission =
 	["pictureFileNameB"] = {},
 	["coalition"] = 
 	{
-		["neutrals"] = 
-		{
-			["bullseye"] = 
-			{
-				["y"] = 0,
-				["x"] = 0,
-			}, -- end of ["bullseye"]
-			["nav_points"] = {},
-			["name"] = "neutrals",
-			["country"] = {},
-		}, -- end of ["neutrals"]
 		["blue"] = 
 		{
 			["bullseye"] = 
@@ -4004,10 +3993,10 @@ mission =
 													{
 														[1] = 
 														{
-															["enabled"] = true,
+															["number"] = 1,
 															["auto"] = true,
 															["id"] = "EWR",
-															["number"] = 1,
+															["enabled"] = true,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -6727,10 +6716,10 @@ mission =
 													{
 														[1] = 
 														{
-															["enabled"] = true,
+															["number"] = 1,
 															["auto"] = true,
 															["id"] = "EWR",
-															["number"] = 1,
+															["enabled"] = true,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -8606,10 +8595,10 @@ mission =
 													{
 														[1] = 
 														{
-															["number"] = 1,
+															["enabled"] = true,
 															["auto"] = true,
 															["id"] = "EWR",
-															["enabled"] = true,
+															["number"] = 1,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -14098,10 +14087,10 @@ mission =
 													{
 														[1] = 
 														{
-															["enabled"] = true,
+															["number"] = 1,
 															["auto"] = true,
 															["id"] = "EWR",
-															["number"] = 1,
+															["enabled"] = true,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -16514,10 +16503,10 @@ mission =
 													{
 														[1] = 
 														{
-															["number"] = 1,
+															["enabled"] = true,
 															["auto"] = true,
 															["id"] = "EWR",
-															["enabled"] = true,
+															["number"] = 1,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -16770,10 +16759,10 @@ mission =
 													{
 														[1] = 
 														{
-															["number"] = 1,
+															["enabled"] = true,
 															["auto"] = true,
 															["id"] = "WrappedAction",
-															["enabled"] = true,
+															["number"] = 1,
 															["params"] = 
 															{
 																["action"] = 
@@ -17389,10 +17378,10 @@ mission =
 													{
 														[1] = 
 														{
-															["number"] = 1,
+															["enabled"] = true,
 															["auto"] = true,
 															["id"] = "EWR",
-															["enabled"] = true,
+															["number"] = 1,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -18877,10 +18866,10 @@ mission =
 													{
 														[1] = 
 														{
-															["enabled"] = true,
+															["number"] = 1,
 															["auto"] = true,
 															["id"] = "EWR",
-															["number"] = 1,
+															["enabled"] = true,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -19673,10 +19662,10 @@ mission =
 													{
 														[1] = 
 														{
-															["enabled"] = true,
+															["number"] = 1,
 															["auto"] = true,
 															["id"] = "EWR",
-															["number"] = 1,
+															["enabled"] = true,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -24300,10 +24289,10 @@ mission =
 													{
 														[1] = 
 														{
-															["enabled"] = true,
+															["number"] = 1,
 															["auto"] = true,
 															["id"] = "EWR",
-															["number"] = 1,
+															["enabled"] = true,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -26003,10 +25992,10 @@ mission =
 													{
 														[1] = 
 														{
-															["number"] = 1,
+															["enabled"] = true,
 															["auto"] = true,
 															["id"] = "EWR",
-															["enabled"] = true,
+															["number"] = 1,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -26071,10 +26060,10 @@ mission =
 													{
 														[1] = 
 														{
-															["enabled"] = true,
+															["number"] = 1,
 															["auto"] = true,
 															["id"] = "EWR",
-															["number"] = 1,
+															["enabled"] = true,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -27334,6 +27323,17 @@ mission =
 				}, -- end of [1]
 			}, -- end of ["country"]
 		}, -- end of ["blue"]
+		["neutrals"] = 
+		{
+			["bullseye"] = 
+			{
+				["y"] = 0,
+				["x"] = 0,
+			}, -- end of ["bullseye"]
+			["nav_points"] = {},
+			["name"] = "neutrals",
+			["country"] = {},
+		}, -- end of ["neutrals"]
 		["red"] = 
 		{
 			["bullseye"] = 
@@ -40202,10 +40202,10 @@ Marinefliegergeschwader 28\
 													{
 														[1] = 
 														{
-															["enabled"] = true,
+															["number"] = 1,
 															["auto"] = true,
 															["id"] = "EWR",
-															["number"] = 1,
+															["enabled"] = true,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -40270,10 +40270,10 @@ Marinefliegergeschwader 28\
 													{
 														[1] = 
 														{
-															["number"] = 1,
+															["enabled"] = true,
 															["auto"] = true,
 															["id"] = "EWR",
-															["enabled"] = true,
+															["number"] = 1,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -40338,10 +40338,10 @@ Marinefliegergeschwader 28\
 													{
 														[1] = 
 														{
-															["enabled"] = true,
+															["number"] = 1,
 															["auto"] = true,
 															["id"] = "EWR",
-															["number"] = 1,
+															["enabled"] = true,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -40406,10 +40406,10 @@ Marinefliegergeschwader 28\
 													{
 														[1] = 
 														{
-															["enabled"] = true,
+															["number"] = 1,
 															["auto"] = true,
 															["id"] = "EWR",
-															["number"] = 1,
+															["enabled"] = true,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -41449,10 +41449,10 @@ Marinefliegergeschwader 28\
 													{
 														[1] = 
 														{
-															["number"] = 1,
+															["enabled"] = true,
 															["auto"] = true,
 															["id"] = "EWR",
-															["enabled"] = true,
+															["number"] = 1,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -43681,10 +43681,10 @@ Marinefliegergeschwader 28\
 													{
 														[1] = 
 														{
-															["number"] = 1,
+															["enabled"] = true,
 															["auto"] = true,
 															["id"] = "EWR",
-															["enabled"] = true,
+															["number"] = 1,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -43749,10 +43749,10 @@ Marinefliegergeschwader 28\
 													{
 														[1] = 
 														{
-															["number"] = 1,
+															["enabled"] = true,
 															["auto"] = true,
 															["id"] = "EWR",
-															["enabled"] = true,
+															["number"] = 1,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -43817,10 +43817,10 @@ Marinefliegergeschwader 28\
 													{
 														[1] = 
 														{
-															["number"] = 1,
+															["enabled"] = true,
 															["auto"] = true,
 															["id"] = "EWR",
-															["enabled"] = true,
+															["number"] = 1,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -43989,10 +43989,10 @@ Marinefliegergeschwader 28\
 													{
 														[1] = 
 														{
-															["number"] = 1,
+															["enabled"] = true,
 															["auto"] = true,
 															["id"] = "EWR",
-															["enabled"] = true,
+															["number"] = 1,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -44057,10 +44057,10 @@ Marinefliegergeschwader 28\
 													{
 														[1] = 
 														{
-															["number"] = 1,
+															["enabled"] = true,
 															["auto"] = true,
 															["id"] = "EWR",
-															["enabled"] = true,
+															["number"] = 1,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -46430,7 +46430,7 @@ Marinefliegergeschwader 28\
 	["sortie"] = "DictKey_sortie_5",
 	["version"] = 23,
 	["trigrules"] = {},
-	["currentKey"] = 535304,
+	["currentKey"] = 541081,
 	["failures"] = 
 	{
 		["pp_damage_EmergMaxTempr"] = 
