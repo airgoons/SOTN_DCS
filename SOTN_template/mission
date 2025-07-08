@@ -38,11 +38,14 @@ mission =
 		}, -- end of ["roles"]
 		["isPilotControlVehicles"] = false,
 	}, -- end of ["groundControl"]
-	["requiredModules"] = {},
+	["requiredModules"] = 
+	{
+		["A-4E-C"] = "A-4E-C",
+	}, -- end of ["requiredModules"]
 	["date"] = 
 	{
-		["Day"] = 1,
 		["Year"] = 1986,
+		["Day"] = 1,
 		["Month"] = 6,
 	}, -- end of ["date"]
 	["trig"] = 
@@ -104,24 +107,24 @@ mission =
 					["Blue"] = false,
 					["Red"] = false,
 				}, -- end of ["ForwardObserver"]
-				["Pilot"] = 
-				{
-					["Neutral"] = false,
-					["Blue"] = false,
-					["Red"] = false,
-				}, -- end of ["Pilot"]
-				["Spectrator"] = 
-				{
-					["Neutral"] = false,
-					["Blue"] = false,
-					["Red"] = false,
-				}, -- end of ["Spectrator"]
 				["ArtilleryCommander"] = 
 				{
 					["Neutral"] = false,
 					["Blue"] = false,
 					["Red"] = false,
 				}, -- end of ["ArtilleryCommander"]
+				["Spectrator"] = 
+				{
+					["Neutral"] = false,
+					["Blue"] = false,
+					["Red"] = false,
+				}, -- end of ["Spectrator"]
+				["Pilot"] = 
+				{
+					["Neutral"] = false,
+					["Blue"] = false,
+					["Red"] = false,
+				}, -- end of ["Pilot"]
 			}, -- end of ["hiddenOnF10Map"]
 		}, -- end of ["options"]
 		["layers"] = 
@@ -159,8 +162,8 @@ mission =
 						["thickness"] = 16,
 						["colorString"] = "0xff0000ff",
 						["style"] = "dot",
-						["layerName"] = "Common",
-						["name"] = "Wall",
+						["lineMode"] = "segments",
+						["mapX"] = -8214.4187079729,
 						["points"] = 
 						{
 							[31] = 
@@ -543,16 +546,16 @@ mission =
 								["y"] = -40746.515745244,
 								["x"] = -97733.289556015,
 							}, -- end of [28]
-							[83] = 
+							[47] = 
 							{
-								["y"] = -75660.569770658,
-								["x"] = -266545.00740874,
-							}, -- end of [83]
-							[79] = 
+								["y"] = -23642.41442617,
+								["x"] = -146103.07973006,
+							}, -- end of [47]
+							[63] = 
 							{
-								["y"] = -71887.386699982,
-								["x"] = -249500.62871017,
-							}, -- end of [79]
+								["y"] = -35219.470880095,
+								["x"] = -201865.41626548,
+							}, -- end of [63]
 							[78] = 
 							{
 								["y"] = -69194.070738502,
@@ -563,39 +566,39 @@ mission =
 								["y"] = -37051.12768243,
 								["x"] = -100845.19529312,
 							}, -- end of [29]
-							[75] = 
-							{
-								["y"] = -66372.260119033,
-								["x"] = -236968.74037167,
-							}, -- end of [75]
-							[71] = 
-							{
-								["y"] = -38944.260897794,
-								["x"] = -225794.37031858,
-							}, -- end of [71]
 							[67] = 
 							{
 								["y"] = -38492.771198679,
 								["x"] = -214055.63814158,
 							}, -- end of [67]
+							[71] = 
+							{
+								["y"] = -38944.260897794,
+								["x"] = -225794.37031858,
+							}, -- end of [71]
+							[75] = 
+							{
+								["y"] = -66372.260119033,
+								["x"] = -236968.74037167,
+							}, -- end of [75]
 							[30] = 
 							{
 								["y"] = -19934.286236022,
 								["x"] = -119267.94151189,
 							}, -- end of [30]
-							[63] = 
+							[79] = 
 							{
-								["y"] = -35219.470880095,
-								["x"] = -201865.41626548,
-							}, -- end of [63]
-							[47] = 
+								["y"] = -71887.386699982,
+								["x"] = -249500.62871017,
+							}, -- end of [79]
+							[83] = 
 							{
-								["y"] = -23642.41442617,
-								["x"] = -146103.07973006,
-							}, -- end of [47]
+								["y"] = -75660.569770658,
+								["x"] = -266545.00740874,
+							}, -- end of [83]
 						}, -- end of ["points"]
-						["mapX"] = -8214.4187079729,
-						["lineMode"] = "segments",
+						["name"] = "Wall",
+						["layerName"] = "Common",
 					}, -- end of [1]
 				}, -- end of ["objects"]
 			}, -- end of [4]
@@ -614,8 +617,8 @@ mission =
 						["thickness"] = 8,
 						["colorString"] = "0x0080ffff",
 						["style"] = "solid",
-						["layerName"] = "Author",
-						["name"] = "Line-2",
+						["lineMode"] = "segments",
+						["mapX"] = -100058.15194227,
 						["points"] = 
 						{
 							[13] = 
@@ -663,16 +666,16 @@ mission =
 								["y"] = -113605.09692362,
 								["x"] = 32647.91226543,
 							}, -- end of [10]
-							[14] = 
-							{
-								["y"] = -229668.02746962,
-								["x"] = 90589.053655697,
-							}, -- end of [14]
 							[3] = 
 							{
 								["y"] = -56862.784462299,
 								["x"] = 2529.9120205684,
 							}, -- end of [3]
+							[11] = 
+							{
+								["y"] = -123845.21700687,
+								["x"] = 40840.008332033,
+							}, -- end of [11]
 							[6] = 
 							{
 								["y"] = -81077.656659168,
@@ -683,14 +686,14 @@ mission =
 								["y"] = -133362.50508425,
 								["x"] = 69391.872564162,
 							}, -- end of [12]
-							[11] = 
+							[14] = 
 							{
-								["y"] = -123845.21700687,
-								["x"] = 40840.008332033,
-							}, -- end of [11]
+								["y"] = -229668.02746962,
+								["x"] = 90589.053655697,
+							}, -- end of [14]
 						}, -- end of ["points"]
-						["mapX"] = -100058.15194227,
-						["lineMode"] = "segments",
+						["name"] = "Line-2",
+						["layerName"] = "Author",
 					}, -- end of [1]
 					[2] = 
 					{
@@ -701,8 +704,8 @@ mission =
 						["thickness"] = 8,
 						["colorString"] = "0x0080ffff",
 						["style"] = "solid",
-						["layerName"] = "Author",
-						["name"] = "Line-3",
+						["lineMode"] = "segments",
+						["mapX"] = -259012.33461068,
 						["points"] = 
 						{
 							[6] = 
@@ -736,8 +739,8 @@ mission =
 								["x"] = -91210.432843142,
 							}, -- end of [5]
 						}, -- end of ["points"]
-						["mapX"] = -259012.33461068,
-						["lineMode"] = "segments",
+						["name"] = "Line-3",
+						["layerName"] = "Author",
 					}, -- end of [2]
 				}, -- end of ["objects"]
 			}, -- end of [5]
@@ -804,38 +807,60 @@ mission =
 	["theatre"] = "GermanyCW",
 	["triggers"] = 
 	{
-		["zones"] = {},
+		["zones"] = 
+		{
+			[1] = 
+			{
+				["radius"] = 3000,
+				["zoneId"] = 4425,
+				["color"] = 
+				{
+					[1] = 1,
+					[2] = 1,
+					[3] = 1,
+					[4] = 0.15,
+				}, -- end of ["color"]
+				["properties"] = {},
+				["hidden"] = false,
+				["y"] = -936932.36223315,
+				["x"] = -89415.444286134,
+				["name"] = "PlayArea",
+				["type"] = 2,
+				["heading"] = 0,
+				["verticies"] = 
+				{
+					[1] = 
+					{
+						["y"] = -986298.73391457,
+						["x"] = -151610.13455162,
+					}, -- end of [1]
+					[2] = 
+					{
+						["y"] = -884436.78701192,
+						["x"] = -142965.88676401,
+					}, -- end of [2]
+					[3] = 
+					{
+						["y"] = -887941.21179068,
+						["x"] = -27319.869064895,
+					}, -- end of [3]
+					[4] = 
+					{
+						["y"] = -989052.71621546,
+						["x"] = -35765.88676401,
+					}, -- end of [4]
+				}, -- end of ["verticies"]
+			}, -- end of [1]
+		}, -- end of ["zones"]
 	}, -- end of ["triggers"]
 	["map"] = 
 	{
-		["centerY"] = -688119.6,
-		["zoom"] = 801426.90265487,
-		["centerX"] = -223733.93331666,
+		["centerY"] = -686119.92538832,
+		["zoom"] = 714071.37026549,
+		["centerX"] = -183076.558172,
 	}, -- end of ["map"]
 	["coalitions"] = 
 	{
-		["blue"] = 
-		{
-			[1] = 21,
-			[2] = 23,
-			[3] = 11,
-			[4] = 8,
-			[5] = 13,
-			[6] = 5,
-			[7] = 6,
-			[8] = 31,
-			[9] = 15,
-			[10] = 20,
-			[11] = 36,
-			[12] = 12,
-			[13] = 45,
-			[14] = 9,
-			[15] = 46,
-			[16] = 10,
-			[17] = 3,
-			[18] = 4,
-			[19] = 2,
-		}, -- end of ["blue"]
 		["neutrals"] = 
 		{
 			[1] = 18,
@@ -898,6 +923,28 @@ mission =
 			[58] = 50,
 			[59] = 48,
 		}, -- end of ["neutrals"]
+		["blue"] = 
+		{
+			[1] = 21,
+			[2] = 23,
+			[3] = 11,
+			[4] = 8,
+			[5] = 13,
+			[6] = 5,
+			[7] = 6,
+			[8] = 31,
+			[9] = 15,
+			[10] = 20,
+			[11] = 36,
+			[12] = 12,
+			[13] = 45,
+			[14] = 9,
+			[15] = 46,
+			[16] = 10,
+			[17] = 3,
+			[18] = 4,
+			[19] = 2,
+		}, -- end of ["blue"]
 		["red"] = 
 		{
 			[1] = 25,
@@ -924,6 +971,17 @@ mission =
 	["pictureFileNameB"] = {},
 	["coalition"] = 
 	{
+		["neutrals"] = 
+		{
+			["bullseye"] = 
+			{
+				["y"] = 0,
+				["x"] = 0,
+			}, -- end of ["bullseye"]
+			["nav_points"] = {},
+			["name"] = "neutrals",
+			["country"] = {},
+		}, -- end of ["neutrals"]
 		["blue"] = 
 		{
 			["bullseye"] = 
@@ -3993,10 +4051,10 @@ mission =
 													{
 														[1] = 
 														{
-															["number"] = 1,
+															["enabled"] = true,
 															["auto"] = true,
 															["id"] = "EWR",
-															["enabled"] = true,
+															["number"] = 1,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -6716,10 +6774,10 @@ mission =
 													{
 														[1] = 
 														{
-															["number"] = 1,
+															["enabled"] = true,
 															["auto"] = true,
 															["id"] = "EWR",
-															["enabled"] = true,
+															["number"] = 1,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -8595,10 +8653,10 @@ mission =
 													{
 														[1] = 
 														{
-															["enabled"] = true,
+															["number"] = 1,
 															["auto"] = true,
 															["id"] = "EWR",
-															["number"] = 1,
+															["enabled"] = true,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -14087,10 +14145,10 @@ mission =
 													{
 														[1] = 
 														{
-															["number"] = 1,
+															["enabled"] = true,
 															["auto"] = true,
 															["id"] = "EWR",
-															["enabled"] = true,
+															["number"] = 1,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -16503,10 +16561,10 @@ mission =
 													{
 														[1] = 
 														{
-															["enabled"] = true,
+															["number"] = 1,
 															["auto"] = true,
 															["id"] = "EWR",
-															["number"] = 1,
+															["enabled"] = true,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -16759,10 +16817,10 @@ mission =
 													{
 														[1] = 
 														{
-															["enabled"] = true,
+															["number"] = 1,
 															["auto"] = true,
 															["id"] = "WrappedAction",
-															["number"] = 1,
+															["enabled"] = true,
 															["params"] = 
 															{
 																["action"] = 
@@ -17378,10 +17436,10 @@ mission =
 													{
 														[1] = 
 														{
-															["enabled"] = true,
+															["number"] = 1,
 															["auto"] = true,
 															["id"] = "EWR",
-															["number"] = 1,
+															["enabled"] = true,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -18866,10 +18924,10 @@ mission =
 													{
 														[1] = 
 														{
-															["number"] = 1,
+															["enabled"] = true,
 															["auto"] = true,
 															["id"] = "EWR",
-															["enabled"] = true,
+															["number"] = 1,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -19662,10 +19720,10 @@ mission =
 													{
 														[1] = 
 														{
-															["number"] = 1,
+															["enabled"] = true,
 															["auto"] = true,
 															["id"] = "EWR",
-															["enabled"] = true,
+															["number"] = 1,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -24289,10 +24347,10 @@ mission =
 													{
 														[1] = 
 														{
-															["number"] = 1,
+															["enabled"] = true,
 															["auto"] = true,
 															["id"] = "EWR",
-															["enabled"] = true,
+															["number"] = 1,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -25992,10 +26050,10 @@ mission =
 													{
 														[1] = 
 														{
-															["enabled"] = true,
+															["number"] = 1,
 															["auto"] = true,
 															["id"] = "EWR",
-															["number"] = 1,
+															["enabled"] = true,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -26060,10 +26118,10 @@ mission =
 													{
 														[1] = 
 														{
-															["number"] = 1,
+															["enabled"] = true,
 															["auto"] = true,
 															["id"] = "EWR",
-															["enabled"] = true,
+															["number"] = 1,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -27321,19 +27379,297 @@ mission =
 						}, -- end of ["group"]
 					}, -- end of ["vehicle"]
 				}, -- end of [1]
+				[2] = 
+				{
+					["id"] = 4,
+					["name"] = "UK",
+					["plane"] = 
+					{
+						["group"] = 
+						{
+							[1] = 
+							{
+								["dynSpawnTemplate"] = false,
+								["modulation"] = 0,
+								["tasks"] = {},
+								["radioSet"] = false,
+								["task"] = "CAS",
+								["uncontrolled"] = false,
+								["route"] = 
+								{
+									["points"] = 
+									{
+										[1] = 
+										{
+											["alt"] = 2000,
+											["action"] = "Turning Point",
+											["alt_type"] = "BARO",
+											["properties"] = 
+											{
+												["addopt"] = {},
+											}, -- end of ["properties"]
+											["speed"] = 200.41666666667,
+											["task"] = 
+											{
+												["id"] = "ComboTask",
+												["params"] = 
+												{
+													["tasks"] = 
+													{
+														[1] = 
+														{
+															["number"] = 1,
+															["key"] = "CAS",
+															["id"] = "EngageTargets",
+															["enabled"] = true,
+															["auto"] = true,
+															["params"] = 
+															{
+																["targetTypes"] = 
+																{
+																	[1] = "Helicopters",
+																	[2] = "Ground Units",
+																	[3] = "Light armed ships",
+																}, -- end of ["targetTypes"]
+																["priority"] = 0,
+															}, -- end of ["params"]
+														}, -- end of [1]
+														[2] = 
+														{
+															["number"] = 2,
+															["auto"] = true,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "Option",
+																	["params"] = 
+																	{
+																		["value"] = 2,
+																		["name"] = 1,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [2]
+														[3] = 
+														{
+															["number"] = 3,
+															["auto"] = true,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "Option",
+																	["params"] = 
+																	{
+																		["value"] = 1,
+																		["name"] = 3,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [3]
+														[4] = 
+														{
+															["number"] = 4,
+															["auto"] = true,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "Option",
+																	["params"] = 
+																	{
+																		["variantIndex"] = 2,
+																		["name"] = 5,
+																		["formationIndex"] = 2,
+																		["value"] = 131074,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [4]
+														[5] = 
+														{
+															["number"] = 5,
+															["auto"] = true,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "Option",
+																	["params"] = 
+																	{
+																		["value"] = true,
+																		["name"] = 15,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [5]
+														[6] = 
+														{
+															["number"] = 6,
+															["auto"] = true,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "Option",
+																	["params"] = 
+																	{
+																		["targetTypes"] = {},
+																		["name"] = 21,
+																		["value"] = "none;",
+																		["noTargetTypes"] = 
+																		{
+																			[1] = "Fighters",
+																			[2] = "Multirole fighters",
+																			[3] = "Bombers",
+																			[4] = "Helicopters",
+																			[5] = "UAVs",
+																			[6] = "Infantry",
+																			[7] = "Fortifications",
+																			[8] = "Tanks",
+																			[9] = "IFV",
+																			[10] = "APC",
+																			[11] = "Artillery",
+																			[12] = "Unarmed vehicles",
+																			[13] = "AAA",
+																			[14] = "SR SAM",
+																			[15] = "MR SAM",
+																			[16] = "LR SAM",
+																			[17] = "Aircraft Carriers",
+																			[18] = "Cruisers",
+																			[19] = "Destroyers",
+																			[20] = "Frigates",
+																			[21] = "Corvettes",
+																			[22] = "Light armed ships",
+																			[23] = "Unarmed ships",
+																			[24] = "Submarines",
+																			[25] = "Cruise missiles",
+																			[26] = "Antiship Missiles",
+																			[27] = "AA Missiles",
+																			[28] = "AG Missiles",
+																			[29] = "SA Missiles",
+																		}, -- end of ["noTargetTypes"]
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [6]
+														[7] = 
+														{
+															["number"] = 7,
+															["auto"] = true,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "Option",
+																	["params"] = 
+																	{
+																		["value"] = true,
+																		["name"] = 19,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [7]
+														[8] = 
+														{
+															["number"] = 8,
+															["auto"] = true,
+															["id"] = "WrappedAction",
+															["enabled"] = true,
+															["params"] = 
+															{
+																["action"] = 
+																{
+																	["id"] = "Option",
+																	["params"] = 
+																	{
+																		["value"] = true,
+																		["name"] = 35,
+																	}, -- end of ["params"]
+																}, -- end of ["action"]
+															}, -- end of ["params"]
+														}, -- end of [8]
+													}, -- end of ["tasks"]
+												}, -- end of ["params"]
+											}, -- end of ["task"]
+											["type"] = "Turning Point",
+											["ETA"] = 0,
+											["ETA_locked"] = true,
+											["y"] = -846020.10021592,
+											["x"] = -135508.88030582,
+											["speed_locked"] = true,
+											["formation_template"] = "",
+										}, -- end of [1]
+									}, -- end of ["points"]
+								}, -- end of ["route"]
+								["groupId"] = 789,
+								["hidden"] = false,
+								["units"] = 
+								{
+									[1] = 
+									{
+										["alt"] = 2000,
+										["alt_type"] = "BARO",
+										["livery_id"] = "unmarked",
+										["skill"] = "High",
+										["speed"] = 200.41666666667,
+										["AddPropAircraft"] = 
+										{
+											["HideECMPanel"] = false,
+											["Auto_Catapult_Power"] = false,
+											["Night_Vision"] = false,
+										}, -- end of ["AddPropAircraft"]
+										["type"] = "A-4E-C",
+										["unitId"] = 4121,
+										["psi"] = 0,
+										["onboard_num"] = "010",
+										["y"] = -846020.10021592,
+										["x"] = -135508.88030582,
+										["name"] = "Aerial-1-1",
+										["payload"] = 
+										{
+											["pylons"] = {},
+											["fuel"] = 2467.5454273299,
+											["flare"] = 30,
+											["ammo_type"] = 1,
+											["chaff"] = 30,
+											["gun"] = 100,
+										}, -- end of ["payload"]
+										["heading"] = 0,
+										["callsign"] = 
+										{
+											[1] = 1,
+											[2] = 1,
+											["name"] = "Enfield11",
+											[3] = 1,
+										}, -- end of ["callsign"]
+									}, -- end of [1]
+								}, -- end of ["units"]
+								["y"] = -846020.10021592,
+								["x"] = -135508.88030582,
+								["name"] = "Aerial-1",
+								["communication"] = true,
+								["start_time"] = 0,
+								["frequency"] = 254,
+							}, -- end of [1]
+						}, -- end of ["group"]
+					}, -- end of ["plane"]
+				}, -- end of [2]
 			}, -- end of ["country"]
 		}, -- end of ["blue"]
-		["neutrals"] = 
-		{
-			["bullseye"] = 
-			{
-				["y"] = 0,
-				["x"] = 0,
-			}, -- end of ["bullseye"]
-			["nav_points"] = {},
-			["name"] = "neutrals",
-			["country"] = {},
-		}, -- end of ["neutrals"]
 		["red"] = 
 		{
 			["bullseye"] = 
@@ -40202,10 +40538,10 @@ Marinefliegergeschwader 28\
 													{
 														[1] = 
 														{
-															["number"] = 1,
+															["enabled"] = true,
 															["auto"] = true,
 															["id"] = "EWR",
-															["enabled"] = true,
+															["number"] = 1,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -40270,10 +40606,10 @@ Marinefliegergeschwader 28\
 													{
 														[1] = 
 														{
-															["enabled"] = true,
+															["number"] = 1,
 															["auto"] = true,
 															["id"] = "EWR",
-															["number"] = 1,
+															["enabled"] = true,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -40338,10 +40674,10 @@ Marinefliegergeschwader 28\
 													{
 														[1] = 
 														{
-															["number"] = 1,
+															["enabled"] = true,
 															["auto"] = true,
 															["id"] = "EWR",
-															["enabled"] = true,
+															["number"] = 1,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -40406,10 +40742,10 @@ Marinefliegergeschwader 28\
 													{
 														[1] = 
 														{
-															["number"] = 1,
+															["enabled"] = true,
 															["auto"] = true,
 															["id"] = "EWR",
-															["enabled"] = true,
+															["number"] = 1,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -41449,10 +41785,10 @@ Marinefliegergeschwader 28\
 													{
 														[1] = 
 														{
-															["enabled"] = true,
+															["number"] = 1,
 															["auto"] = true,
 															["id"] = "EWR",
-															["number"] = 1,
+															["enabled"] = true,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -43681,10 +44017,10 @@ Marinefliegergeschwader 28\
 													{
 														[1] = 
 														{
-															["enabled"] = true,
+															["number"] = 1,
 															["auto"] = true,
 															["id"] = "EWR",
-															["number"] = 1,
+															["enabled"] = true,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -43749,10 +44085,10 @@ Marinefliegergeschwader 28\
 													{
 														[1] = 
 														{
-															["enabled"] = true,
+															["number"] = 1,
 															["auto"] = true,
 															["id"] = "EWR",
-															["number"] = 1,
+															["enabled"] = true,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -43817,10 +44153,10 @@ Marinefliegergeschwader 28\
 													{
 														[1] = 
 														{
-															["enabled"] = true,
+															["number"] = 1,
 															["auto"] = true,
 															["id"] = "EWR",
-															["number"] = 1,
+															["enabled"] = true,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -43989,10 +44325,10 @@ Marinefliegergeschwader 28\
 													{
 														[1] = 
 														{
-															["enabled"] = true,
+															["number"] = 1,
 															["auto"] = true,
 															["id"] = "EWR",
-															["number"] = 1,
+															["enabled"] = true,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -44057,10 +44393,10 @@ Marinefliegergeschwader 28\
 													{
 														[1] = 
 														{
-															["enabled"] = true,
+															["number"] = 1,
 															["auto"] = true,
 															["id"] = "EWR",
-															["number"] = 1,
+															["enabled"] = true,
 															["params"] = {},
 														}, -- end of [1]
 													}, -- end of ["tasks"]
@@ -46430,7 +46766,7 @@ Marinefliegergeschwader 28\
 	["sortie"] = "DictKey_sortie_5",
 	["version"] = 23,
 	["trigrules"] = {},
-	["currentKey"] = 541081,
+	["currentKey"] = 559305,
 	["failures"] = 
 	{
 		["pp_damage_EmergMaxTempr"] = 
