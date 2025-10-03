@@ -50,9 +50,9 @@ mission =
 	}, -- end of ["requiredModules"]
 	["date"] = 
 	{
-		["Day"] = 1,
+		["Day"] = 27,
 		["Year"] = 1986,
-		["Month"] = 6,
+		["Month"] = 5,
 	}, -- end of ["date"]
 	["trig"] = 
 	{
@@ -131,12 +131,6 @@ mission =
 					["Blue"] = false,
 					["Red"] = false,
 				}, -- end of ["ForwardObserver"]
-				["Pilot"] = 
-				{
-					["Neutral"] = false,
-					["Blue"] = false,
-					["Red"] = false,
-				}, -- end of ["Pilot"]
 				["Spectrator"] = 
 				{
 					["Neutral"] = false,
@@ -149,111 +143,200 @@ mission =
 					["Blue"] = false,
 					["Red"] = false,
 				}, -- end of ["ArtilleryCommander"]
+				["Pilot"] = 
+				{
+					["Neutral"] = false,
+					["Blue"] = false,
+					["Red"] = false,
+				}, -- end of ["Pilot"]
 			}, -- end of ["hiddenOnF10Map"]
 		}, -- end of ["options"]
 		["layers"] = 
 		{
-			[2] = 
+			[1] = 
 			{
 				["visible"] = true,
-				["name"] = "Blue",
+				["name"] = "Red",
 				["objects"] = 
 				{
 					[1] = 
 					{
 						["visible"] = true,
-						["borderThickness"] = 4,
-						["mapY"] = -671703.30146705,
-						["layerName"] = "Blue",
+						["mapY"] = -611406.36757427,
+						["primitiveType"] = "Polygon",
+						["polygonMode"] = "rect",
 						["angle"] = 0,
-						["colorString"] = "0xffffffff",
-						["font"] = "DejaVuLGCSansCondensed.ttf",
-						["name"] = "MRR A",
-						["mapX"] = -169131.11923549,
-						["text"] = "MRR Alpha\
-BKD 124X\
-East: 19-23K\
-West: 15-18K\
-",
-						["fillColorString"] = "0x0080ffc7",
-						["primitiveType"] = "TextBox",
-						["fontSize"] = 18,
+						["layerName"] = "Red",
+						["style"] = "solid",
+						["width"] = 107509.3046091,
+						["thickness"] = 8,
+						["mapX"] = -124766.11317908,
+						["name"] = "Sever Box",
+						["height"] = 53775.829667064,
+						["fillColorString"] = "0xffffff00",
+						["colorString"] = "0xff5c00ff",
 					}, -- end of [1]
 					[2] = 
 					{
 						["visible"] = true,
 						["borderThickness"] = 4,
-						["mapY"] = -842544.39928041,
-						["layerName"] = "Blue",
-						["angle"] = 0,
-						["colorString"] = "0xffffffff",
-						["font"] = "DejaVuLGCSansCondensed.ttf",
-						["name"] = "RAF G",
-						["mapX"] = -259044.16148296,
-						["text"] = "SFC-4000ft\
-RAF Gütersloh BDZ\
-GSO 108X",
-						["fillColorString"] = "0x0080ffff",
+						["fillColorString"] = "0xffffffff",
+						["fontSize"] = 19,
+						["mapY"] = -553908.99019917,
+						["layerName"] = "Red",
 						["primitiveType"] = "TextBox",
-						["fontSize"] = 13,
+						["font"] = "DejaVuLGCSansCondensed.ttf",
+						["text"] = "FEZ SEVER",
+						["mapX"] = -121669.19179089,
+						["name"] = "FEZ SEVER",
+						["colorString"] = "0xff7200ff",
+						["angle"] = 0,
 					}, -- end of [2]
+					[3] = 
+					{
+						["visible"] = true,
+						["mapY"] = -621956.98526023,
+						["primitiveType"] = "Polygon",
+						["polygonMode"] = "rect",
+						["angle"] = 0,
+						["layerName"] = "Red",
+						["style"] = "solid",
+						["width"] = 112550.16607477,
+						["thickness"] = 8,
+						["mapX"] = -179451.18479497,
+						["name"] = "Centar Box",
+						["height"] = 50306.513624328,
+						["fillColorString"] = "0xff000000",
+						["colorString"] = "0xff5c00ff",
+					}, -- end of [3]
 					[4] = 
 					{
 						["visible"] = true,
-						["radius"] = 20706.290519777,
-						["mapY"] = -749847.84810973,
-						["primitiveType"] = "Polygon",
-						["thickness"] = 8,
-						["colorString"] = "0x0080ffff",
-						["style"] = "solid",
-						["layerName"] = "Blue",
-						["name"] = "Wunstorf BDZ-1",
-						["fillColorString"] = "0xffffff00",
-						["mapX"] = -187104.07312239,
-						["polygonMode"] = "circle",
+						["borderThickness"] = 4,
+						["fillColorString"] = "0xffffffff",
+						["fontSize"] = 18,
+						["mapY"] = -564474.41291692,
+						["layerName"] = "Red",
+						["primitiveType"] = "TextBox",
+						["font"] = "DejaVuLGCSansCondensed.ttf",
+						["text"] = "FEZ CENTAR",
+						["mapX"] = -181235.0743112,
+						["name"] = "FEZ CENTAR",
+						["colorString"] = "0xff7200ff",
+						["angle"] = 0,
 					}, -- end of [4]
-					[8] = 
+					[5] = 
 					{
 						["visible"] = true,
-						["radius"] = 18500,
-						["mapY"] = -835228.25442048,
+						["mapY"] = -644199.97253535,
 						["primitiveType"] = "Polygon",
-						["thickness"] = 8,
-						["colorString"] = "0x0080ffff",
+						["polygonMode"] = "rect",
+						["angle"] = 0,
+						["layerName"] = "Red",
 						["style"] = "solid",
-						["layerName"] = "Blue",
-						["name"] = "Gutersloh BDZ",
-						["fillColorString"] = "0xffffff00",
-						["mapX"] = -233480.98585388,
-						["polygonMode"] = "circle",
-					}, -- end of [8]
-					[16] = 
+						["width"] = 135429.68215815,
+						["thickness"] = 8,
+						["mapX"] = -228973.56223945,
+						["name"] = "YUG box",
+						["height"] = 48459.099282191,
+						["fillColorString"] = "0xff000000",
+						["colorString"] = "0xff5c00ff",
+					}, -- end of [5]
+					[6] = 
 					{
 						["visible"] = true,
 						["borderThickness"] = 4,
-						["mapY"] = -832223.33906555,
-						["layerName"] = "Blue",
-						["angle"] = 301,
-						["colorString"] = "0xffffffff",
-						["font"] = "DejaVuLGCSansCondensed.ttf",
-						["name"] = "GSO R-030",
-						["mapX"] = -225655.33293289,
-						["text"] = "GSO R-030",
-						["fillColorString"] = "0x0080ffff",
+						["fillColorString"] = "0xffffffff",
+						["fontSize"] = 19,
+						["mapY"] = -573978.26144334,
+						["layerName"] = "Red",
 						["primitiveType"] = "TextBox",
-						["fontSize"] = 13,
-					}, -- end of [16]
-					[17] = 
+						["font"] = "DejaVuLGCSansCondensed.ttf",
+						["text"] = "FEZ YUG",
+						["mapX"] = -235293.73745681,
+						["name"] = "Text Box-1-2",
+						["colorString"] = "0xff7200ff",
+						["angle"] = 0,
+					}, -- end of [6]
+					[7] = 
 					{
 						["visible"] = true,
-						["mapY"] = -822579.6247641,
-						["primitiveType"] = "Line",
-						["closed"] = false,
-						["thickness"] = 3,
-						["colorString"] = "0x0000ffff",
+						["borderThickness"] = 4,
+						["fillColorString"] = "0xffffffff",
+						["fontSize"] = 19,
+						["mapY"] = -474508.91788371,
+						["layerName"] = "Red",
+						["primitiveType"] = "TextBox",
+						["font"] = "DejaVuLGCSansCondensed.ttf",
+						["text"] = "SFC-1000 METER\
+TROLLENHAGEN BDZ\
+20KM \
+",
+						["mapX"] = -124194.32536239,
+						["name"] = "TRoll BDZ",
+						["colorString"] = "0xff7200ff",
+						["angle"] = 0,
+					}, -- end of [7]
+					[8] = 
+					{
+						["visible"] = true,
+						["radius"] = 19511.655760932,
+						["colorString"] = "0xff5c00ff",
+						["mapY"] = -473403.3081696,
+						["primitiveType"] = "Polygon",
+						["polygonMode"] = "circle",
 						["style"] = "solid",
-						["layerName"] = "Blue",
-						["name"] = "R145",
+						["thickness"] = 8,
+						["mapX"] = -94879.42444248,
+						["layerName"] = "Red",
+						["name"] = "Troll BDZ Ring",
+						["fillColorString"] = "0xff000000",
+					}, -- end of [8]
+					[9] = 
+					{
+						["visible"] = true,
+						["borderThickness"] = 4,
+						["fillColorString"] = "0xffffff80",
+						["fontSize"] = 24,
+						["mapY"] = -437188.51834169,
+						["layerName"] = "Red",
+						["primitiveType"] = "TextBox",
+						["font"] = "DejaVuLGCSansCondensed.ttf",
+						["text"] = "LVD3",
+						["mapX"] = -167122.69422177,
+						["name"] = "LVD3",
+						["colorString"] = "0xff0000ff",
+						["angle"] = 0,
+					}, -- end of [9]
+					[10] = 
+					{
+						["visible"] = true,
+						["borderThickness"] = 4,
+						["fillColorString"] = "0xffffff80",
+						["fontSize"] = 24,
+						["mapY"] = -437458.55796841,
+						["layerName"] = "Red",
+						["primitiveType"] = "TextBox",
+						["font"] = "DejaVuLGCSansCondensed.ttf",
+						["text"] = "LVD1",
+						["mapX"] = -181095.20101302,
+						["name"] = "LVD1",
+						["colorString"] = "0xff0000ff",
+						["angle"] = 0,
+					}, -- end of [10]
+					[11] = 
+					{
+						["visible"] = true,
+						["colorString"] = "0xff0000ff",
+						["lineMode"] = "segments",
+						["mapY"] = -599297.91433699,
+						["primitiveType"] = "Line",
+						["style"] = "solid",
+						["closed"] = false,
+						["thickness"] = 8,
+						["mapX"] = -171242.02264236,
+						["layerName"] = "Red",
+						["name"] = "lvd line",
 						["points"] = 
 						{
 							[1] = 
@@ -268,38 +351,348 @@ GSO 108X",
 							}, -- end of [2]
 							[3] = 
 							{
-								["y"] = -14469.927302651,
-								["x"] = 21199.42307253,
+								["y"] = 209324.92168354,
+								["x"] = -500.77732460178,
 							}, -- end of [3]
 						}, -- end of ["points"]
-						["mapX"] = -253458.18618408,
-						["lineMode"] = "segments",
-					}, -- end of [17]
+					}, -- end of [11]
+				}, -- end of ["objects"]
+			}, -- end of [1]
+			[2] = 
+			{
+				["visible"] = true,
+				["name"] = "Blue",
+				["objects"] = 
+				{
+					[1] = 
+					{
+						["visible"] = true,
+						["borderThickness"] = 4,
+						["fillColorString"] = "0x0080ffc7",
+						["fontSize"] = 18,
+						["mapY"] = -671703.30146705,
+						["layerName"] = "Blue",
+						["primitiveType"] = "TextBox",
+						["font"] = "DejaVuLGCSansCondensed.ttf",
+						["text"] = "MRR Alpha\
+BKD 124X\
+East: 19-23K\
+West: 15-18K\
+",
+						["mapX"] = -169131.11923549,
+						["name"] = "MRR A",
+						["colorString"] = "0xffffffff",
+						["angle"] = 0,
+					}, -- end of [1]
+					[2] = 
+					{
+						["visible"] = true,
+						["borderThickness"] = 4,
+						["fillColorString"] = "0x0080ffff",
+						["fontSize"] = 13,
+						["mapY"] = -842544.39928041,
+						["layerName"] = "Blue",
+						["primitiveType"] = "TextBox",
+						["font"] = "DejaVuLGCSansCondensed.ttf",
+						["text"] = "SFC-4000ft\
+RAF Gütersloh BDZ\
+GSO 108X",
+						["mapX"] = -259044.16148296,
+						["name"] = "RAF G",
+						["colorString"] = "0xffffffff",
+						["angle"] = 0,
+					}, -- end of [2]
+					[3] = 
+					{
+						["visible"] = true,
+						["borderThickness"] = 4,
+						["fillColorString"] = "0x0080ffff",
+						["fontSize"] = 13,
+						["mapY"] = -756543.94724598,
+						["layerName"] = "Blue",
+						["primitiveType"] = "TextBox",
+						["font"] = "DejaVuLGCSansCondensed.ttf",
+						["text"] = "SFC-4000ft\
+Wunstorf AB BDZ\
+WUN 116X",
+						["mapX"] = -214206.2189839,
+						["name"] = "Wunstorf BDZ",
+						["colorString"] = "0xffffffff",
+						["angle"] = 0,
+					}, -- end of [3]
+					[4] = 
+					{
+						["visible"] = true,
+						["radius"] = 20706.290519777,
+						["colorString"] = "0x0080ffff",
+						["mapY"] = -749847.84810973,
+						["primitiveType"] = "Polygon",
+						["polygonMode"] = "circle",
+						["style"] = "solid",
+						["thickness"] = 8,
+						["mapX"] = -187104.07312239,
+						["layerName"] = "Blue",
+						["name"] = "Wunstorf BDZ-1",
+						["fillColorString"] = "0xffffff00",
+					}, -- end of [4]
+					[5] = 
+					{
+						["visible"] = true,
+						["borderThickness"] = 4,
+						["fillColorString"] = "0x0080ffb1",
+						["fontSize"] = 18,
+						["mapY"] = -702164.69302011,
+						["layerName"] = "Blue",
+						["primitiveType"] = "TextBox",
+						["font"] = "DejaVuLGCSansCondensed.ttf",
+						["text"] = "MRR Bravo\
+HLZ 120X\
+East: 19-23K\
+West: 15-18K",
+						["mapX"] = -236613.34954895,
+						["name"] = "MRR B",
+						["colorString"] = "0xffffffff",
+						["angle"] = 0,
+					}, -- end of [5]
+					[6] = 
+					{
+						["visible"] = true,
+						["mapY"] = -663983.2639528,
+						["primitiveType"] = "Polygon",
+						["polygonMode"] = "rect",
+						["angle"] = 0,
+						["layerName"] = "Blue",
+						["style"] = "solid",
+						["width"] = 88136.111946197,
+						["thickness"] = 8,
+						["mapX"] = -210096.76286957,
+						["name"] = "Polygon-2-1",
+						["height"] = 16603.349189236,
+						["fillColorString"] = "0xffffff00",
+						["colorString"] = "0x0080ffff",
+					}, -- end of [6]
+					[7] = 
+					{
+						["visible"] = true,
+						["mapY"] = -626176.78135065,
+						["primitiveType"] = "Polygon",
+						["polygonMode"] = "rect",
+						["angle"] = 0,
+						["layerName"] = "Blue",
+						["style"] = "solid",
+						["width"] = 88136.111946197,
+						["thickness"] = 8,
+						["mapX"] = -143810.80822376,
+						["name"] = "Polygon-2",
+						["height"] = 16603.349189236,
+						["fillColorString"] = "0xffffff00",
+						["colorString"] = "0x0080ffff",
+					}, -- end of [7]
+					[8] = 
+					{
+						["visible"] = true,
+						["radius"] = 18500,
+						["colorString"] = "0x0080ffff",
+						["mapY"] = -835228.25442048,
+						["primitiveType"] = "Polygon",
+						["polygonMode"] = "circle",
+						["style"] = "solid",
+						["thickness"] = 8,
+						["mapX"] = -233480.98585388,
+						["layerName"] = "Blue",
+						["name"] = "Gutersloh BDZ",
+						["fillColorString"] = "0xffffff00",
+					}, -- end of [8]
 					[9] = 
 					{
 						["visible"] = true,
 						["borderThickness"] = 4,
+						["fillColorString"] = "0x0080ffd8",
+						["fontSize"] = 24,
 						["mapY"] = -808318.5840708,
 						["layerName"] = "Blue",
-						["angle"] = 0,
-						["colorString"] = "0xffffffff",
-						["font"] = "DejaVuLGCSansCondensed.ttf",
-						["name"] = "AFNORTH",
-						["mapX"] = 1701.9826458261,
-						["text"] = "AFNORTH",
-						["fillColorString"] = "0x0080ffd8",
 						["primitiveType"] = "TextBox",
-						["fontSize"] = 24,
+						["font"] = "DejaVuLGCSansCondensed.ttf",
+						["text"] = "AFNORTH",
+						["mapX"] = 1701.9826458261,
+						["name"] = "AFNORTH",
+						["colorString"] = "0xffffffff",
+						["angle"] = 0,
 					}, -- end of [9]
+					[10] = 
+					{
+						["visible"] = true,
+						["borderThickness"] = 4,
+						["fillColorString"] = "0x0080ffda",
+						["fontSize"] = 24,
+						["mapY"] = -875575.22123895,
+						["layerName"] = "Blue",
+						["primitiveType"] = "TextBox",
+						["font"] = "DejaVuLGCSansCondensed.ttf",
+						["text"] = "2ATAF and NORTHAG",
+						["mapX"] = -296303.82957829,
+						["name"] = "2ATAF and NORTHAG",
+						["colorString"] = "0xffffffff",
+						["angle"] = 0,
+					}, -- end of [10]
+					[11] = 
+					{
+						["visible"] = true,
+						["borderThickness"] = 4,
+						["fillColorString"] = "0x0080ffbe",
+						["fontSize"] = 24,
+						["mapY"] = -831209.43952803,
+						["layerName"] = "Blue",
+						["primitiveType"] = "TextBox",
+						["font"] = "DejaVuLGCSansCondensed.ttf",
+						["text"] = "4ATAF and CENTAG",
+						["mapX"] = -343029.4932951,
+						["name"] = "4ATAF and CENTAG",
+						["colorString"] = "0xffffffff",
+						["angle"] = 0,
+					}, -- end of [11]
+					[12] = 
+					{
+						["visible"] = true,
+						["borderThickness"] = 4,
+						["fillColorString"] = "0x0080ffff",
+						["fontSize"] = 13,
+						["mapY"] = -824595.45756944,
+						["layerName"] = "Blue",
+						["primitiveType"] = "TextBox",
+						["font"] = "DejaVuLGCSansCondensed.ttf",
+						["text"] = "KETTLE\
+GSO R-145 14DME",
+						["mapX"] = -254973.91308312,
+						["name"] = "KETTLE",
+						["colorString"] = "0xffffffff",
+						["angle"] = 55,
+					}, -- end of [12]
+					[13] = 
+					{
+						["visible"] = true,
+						["borderThickness"] = 4,
+						["fillColorString"] = "0x0080ffff",
+						["fontSize"] = 13,
+						["mapY"] = -832231.97490095,
+						["layerName"] = "Blue",
+						["primitiveType"] = "TextBox",
+						["font"] = "DejaVuLGCSansCondensed.ttf",
+						["text"] = "SUGAR\
+GSO R-145/7DME",
+						["mapX"] = -243040.02132056,
+						["name"] = "SUGAR",
+						["colorString"] = "0xffffffff",
+						["angle"] = 55,
+					}, -- end of [13]
+					[14] = 
+					{
+						["visible"] = true,
+						["borderThickness"] = 4,
+						["fillColorString"] = "0x0080ffff",
+						["fontSize"] = 12,
+						["mapY"] = -835170.32642804,
+						["layerName"] = "Blue",
+						["primitiveType"] = "TextBox",
+						["font"] = "DejaVuLGCSansCondensed.ttf",
+						["text"] = "HONEY \
+GSO R-145/4DME",
+						["mapX"] = -238466.40409693,
+						["name"] = "HONEY",
+						["colorString"] = "0xffffffff",
+						["angle"] = 55,
+					}, -- end of [14]
+					[15] = 
+					{
+						["visible"] = true,
+						["colorString"] = "0x0000ffff",
+						["lineMode"] = "segments",
+						["mapY"] = -837039.82877033,
+						["primitiveType"] = "Line",
+						["style"] = "solid",
+						["closed"] = false,
+						["thickness"] = 4,
+						["mapX"] = -232068.39841734,
+						["layerName"] = "Blue",
+						["name"] = "Line-4",
+						["points"] = 
+						{
+							[1] = 
+							{
+								["y"] = -10.201930692885,
+								["x"] = -195.53700494696,
+							}, -- end of [1]
+							[2] = 
+							{
+								["y"] = -3.400643564295,
+								["x"] = -185.33507425408,
+							}, -- end of [2]
+							[3] = 
+							{
+								["y"] = 8724.584222312,
+								["x"] = 15812.189078783,
+							}, -- end of [3]
+						}, -- end of ["points"]
+					}, -- end of [15]
+					[16] = 
+					{
+						["visible"] = true,
+						["borderThickness"] = 4,
+						["fillColorString"] = "0x0080ffff",
+						["fontSize"] = 13,
+						["mapY"] = -832223.33906555,
+						["layerName"] = "Blue",
+						["primitiveType"] = "TextBox",
+						["font"] = "DejaVuLGCSansCondensed.ttf",
+						["text"] = "GSO R-030",
+						["mapX"] = -225655.33293289,
+						["name"] = "GSO R-030",
+						["colorString"] = "0xffffffff",
+						["angle"] = 301,
+					}, -- end of [16]
+					[17] = 
+					{
+						["visible"] = true,
+						["colorString"] = "0x0000ffff",
+						["lineMode"] = "segments",
+						["mapY"] = -822579.6247641,
+						["primitiveType"] = "Line",
+						["style"] = "solid",
+						["closed"] = false,
+						["thickness"] = 3,
+						["mapX"] = -253458.18618408,
+						["layerName"] = "Blue",
+						["name"] = "R145",
+						["points"] = 
+						{
+							[1] = 
+							{
+								["y"] = 0,
+								["x"] = 0,
+							}, -- end of [1]
+							[2] = 
+							{
+								["y"] = 468.75003902265,
+								["x"] = 305.70654718802,
+							}, -- end of [2]
+							[3] = 
+							{
+								["y"] = -14469.927302651,
+								["x"] = 21199.42307253,
+							}, -- end of [3]
+						}, -- end of ["points"]
+					}, -- end of [17]
 					[18] = 
 					{
 						["visible"] = true,
-						["mapY"] = -823252.38668783,
+						["colorString"] = "0x0000ffff",
+						["lineMode"] = "segments",
+						["mapY"] = -822653.92710538,
 						["primitiveType"] = "Line",
+						["style"] = "solid",
 						["closed"] = false,
 						["thickness"] = 8,
-						["colorString"] = "0x0000ffff",
-						["style"] = "solid",
+						["mapX"] = -253515.80230214,
 						["layerName"] = "Blue",
 						["name"] = "kettle",
 						["points"] = 
@@ -320,53 +713,50 @@ GSO 108X",
 								["x"] = 795.66851552241,
 							}, -- end of [3]
 						}, -- end of ["points"]
-						["mapX"] = -253772.65776274,
-						["lineMode"] = "segments",
 					}, -- end of [18]
-					[5] = 
+					[19] = 
 					{
 						["visible"] = true,
-						["borderThickness"] = 4,
-						["mapY"] = -702164.69302011,
+						["colorString"] = "0x0000ffff",
+						["lineMode"] = "segments",
+						["mapY"] = -830083.59353082,
+						["primitiveType"] = "Line",
+						["style"] = "solid",
+						["closed"] = false,
+						["thickness"] = 8,
+						["mapX"] = -243147.9657117,
 						["layerName"] = "Blue",
-						["angle"] = 0,
-						["colorString"] = "0xffffffff",
-						["font"] = "DejaVuLGCSansCondensed.ttf",
-						["name"] = "MRR B",
-						["mapX"] = -236613.34954895,
-						["text"] = "MRR Bravo\
-HLZ 120X\
-East: 19-23K\
-West: 15-18K",
-						["fillColorString"] = "0x0080ffb1",
-						["primitiveType"] = "TextBox",
-						["fontSize"] = 18,
-					}, -- end of [5]
-					[10] = 
-					{
-						["visible"] = true,
-						["borderThickness"] = 4,
-						["mapY"] = -875575.22123895,
-						["layerName"] = "Blue",
-						["angle"] = 0,
-						["colorString"] = "0xffffffff",
-						["font"] = "DejaVuLGCSansCondensed.ttf",
-						["name"] = "2ATAF and NORTHAG",
-						["mapX"] = -296303.82957829,
-						["text"] = "2ATAF and NORTHAG",
-						["fillColorString"] = "0x0080ffda",
-						["primitiveType"] = "TextBox",
-						["fontSize"] = 24,
-					}, -- end of [10]
+						["name"] = "sugar",
+						["points"] = 
+						{
+							[1] = 
+							{
+								["y"] = 0,
+								["x"] = 0,
+							}, -- end of [1]
+							[2] = 
+							{
+								["y"] = 0,
+								["x"] = 0,
+							}, -- end of [2]
+							[3] = 
+							{
+								["y"] = 1095.6355458744,
+								["x"] = 725.0529347698,
+							}, -- end of [3]
+						}, -- end of ["points"]
+					}, -- end of [19]
 					[20] = 
 					{
 						["visible"] = true,
-						["mapY"] = -833498.01124508,
+						["colorString"] = "0x0000ffff",
+						["lineMode"] = "segments",
+						["mapY"] = -833375.7286262,
 						["primitiveType"] = "Line",
+						["style"] = "solid",
 						["closed"] = false,
 						["thickness"] = 8,
-						["colorString"] = "0x0000ffff",
-						["style"] = "solid",
+						["mapX"] = -238306.70349053,
 						["layerName"] = "Blue",
 						["name"] = "honey",
 						["points"] = 
@@ -387,18 +777,18 @@ West: 15-18K",
 								["x"] = 563.93006037653,
 							}, -- end of [3]
 						}, -- end of ["points"]
-						["mapX"] = -238428.98610941,
-						["lineMode"] = "segments",
 					}, -- end of [20]
 					[21] = 
 					{
 						["visible"] = true,
+						["colorString"] = "0x0080ffff",
+						["lineMode"] = "segments",
 						["mapY"] = -599315.43859829,
 						["primitiveType"] = "Line",
+						["style"] = "solid",
 						["closed"] = false,
 						["thickness"] = 8,
-						["colorString"] = "0x0080ffff",
-						["style"] = "solid",
+						["mapX"] = -259012.33461068,
 						["layerName"] = "Blue",
 						["name"] = "Northag line2",
 						["points"] = 
@@ -434,34 +824,18 @@ West: 15-18K",
 								["x"] = -91210.432843142,
 							}, -- end of [5]
 						}, -- end of ["points"]
-						["mapX"] = -259012.33461068,
-						["lineMode"] = "segments",
 					}, -- end of [21]
-					[11] = 
-					{
-						["visible"] = true,
-						["borderThickness"] = 4,
-						["mapY"] = -831209.43952803,
-						["layerName"] = "Blue",
-						["angle"] = 0,
-						["colorString"] = "0xffffffff",
-						["font"] = "DejaVuLGCSansCondensed.ttf",
-						["name"] = "4ATAF and CENTAG",
-						["mapX"] = -343029.4932951,
-						["text"] = "4ATAF and CENTAG",
-						["fillColorString"] = "0x0080ffbe",
-						["primitiveType"] = "TextBox",
-						["fontSize"] = 24,
-					}, -- end of [11]
 					[22] = 
 					{
 						["visible"] = true,
+						["colorString"] = "0x0080ffff",
+						["lineMode"] = "segments",
 						["mapY"] = -597765.02992708,
 						["primitiveType"] = "Line",
+						["style"] = "solid",
 						["closed"] = false,
 						["thickness"] = 8,
-						["colorString"] = "0x0080ffff",
-						["style"] = "solid",
+						["mapX"] = -100058.15194227,
 						["layerName"] = "Blue",
 						["name"] = "NORTHAG line",
 						["points"] = 
@@ -537,137 +911,18 @@ West: 15-18K",
 								["x"] = 2529.9120205684,
 							}, -- end of [3]
 						}, -- end of ["points"]
-						["mapX"] = -100058.15194227,
-						["lineMode"] = "segments",
 					}, -- end of [22]
-					[3] = 
-					{
-						["visible"] = true,
-						["borderThickness"] = 4,
-						["mapY"] = -756543.94724598,
-						["layerName"] = "Blue",
-						["angle"] = 0,
-						["colorString"] = "0xffffffff",
-						["font"] = "DejaVuLGCSansCondensed.ttf",
-						["name"] = "Wunstorf BDZ",
-						["mapX"] = -214206.2189839,
-						["text"] = "SFC-4000ft\
-Wunstorf AB BDZ\
-WUN 116X",
-						["fillColorString"] = "0x0080ffff",
-						["primitiveType"] = "TextBox",
-						["fontSize"] = 13,
-					}, -- end of [3]
-					[6] = 
-					{
-						["visible"] = true,
-						["colorString"] = "0x0080ffff",
-						["mapY"] = -663983.2639528,
-						["primitiveType"] = "Polygon",
-						["fillColorString"] = "0xffffff00",
-						["width"] = 88136.111946197,
-						["thickness"] = 8,
-						["polygonMode"] = "rect",
-						["style"] = "solid",
-						["name"] = "Polygon-2-1",
-						["height"] = 16603.349189236,
-						["angle"] = 0,
-						["mapX"] = -210096.76286957,
-						["layerName"] = "Blue",
-					}, -- end of [6]
-					[12] = 
-					{
-						["visible"] = true,
-						["borderThickness"] = 4,
-						["mapY"] = -824595.45756944,
-						["layerName"] = "Blue",
-						["angle"] = 55,
-						["colorString"] = "0xffffffff",
-						["font"] = "DejaVuLGCSansCondensed.ttf",
-						["name"] = "KETTLE",
-						["mapX"] = -254973.91308312,
-						["text"] = "KETTLE\
-GSO R-145 14DME",
-						["fillColorString"] = "0x0080ffff",
-						["primitiveType"] = "TextBox",
-						["fontSize"] = 13,
-					}, -- end of [12]
-					[24] = 
-					{
-						["visible"] = true,
-						["borderThickness"] = 4,
-						["mapY"] = -742687.27860017,
-						["layerName"] = "Blue",
-						["angle"] = 299,
-						["colorString"] = "0xffffffff",
-						["font"] = "DejaVuLGCSansCondensed.ttf",
-						["name"] = "WUN R-030-1",
-						["mapX"] = -179639.29103379,
-						["text"] = "WUN R-030",
-						["fillColorString"] = "0x0080ffff",
-						["primitiveType"] = "TextBox",
-						["fontSize"] = 13,
-					}, -- end of [24]
-					[13] = 
-					{
-						["visible"] = true,
-						["borderThickness"] = 4,
-						["mapY"] = -832231.97490095,
-						["layerName"] = "Blue",
-						["angle"] = 55,
-						["colorString"] = "0xffffffff",
-						["font"] = "DejaVuLGCSansCondensed.ttf",
-						["name"] = "SUGAR",
-						["mapX"] = -243040.02132056,
-						["text"] = "SUGAR\
-GSO R-145/7DME",
-						["fillColorString"] = "0x0080ffff",
-						["primitiveType"] = "TextBox",
-						["fontSize"] = 13,
-					}, -- end of [13]
-					[7] = 
-					{
-						["visible"] = true,
-						["colorString"] = "0x0080ffff",
-						["mapY"] = -626176.78135065,
-						["primitiveType"] = "Polygon",
-						["fillColorString"] = "0xffffff00",
-						["width"] = 88136.111946197,
-						["thickness"] = 8,
-						["polygonMode"] = "rect",
-						["style"] = "solid",
-						["name"] = "Polygon-2",
-						["height"] = 16603.349189236,
-						["angle"] = 0,
-						["mapX"] = -143810.80822376,
-						["layerName"] = "Blue",
-					}, -- end of [7]
-					[14] = 
-					{
-						["visible"] = true,
-						["borderThickness"] = 4,
-						["mapY"] = -835170.32642804,
-						["layerName"] = "Blue",
-						["angle"] = 55,
-						["colorString"] = "0xffffffff",
-						["font"] = "DejaVuLGCSansCondensed.ttf",
-						["name"] = "HONEY",
-						["mapX"] = -238466.40409693,
-						["text"] = "HONEY \
-GSO R-145/4DME",
-						["fillColorString"] = "0x0080ffff",
-						["primitiveType"] = "TextBox",
-						["fontSize"] = 12,
-					}, -- end of [14]
 					[23] = 
 					{
 						["visible"] = true,
+						["colorString"] = "0x0000ffff",
+						["lineMode"] = "segments",
 						["mapY"] = -748325.7059724,
 						["primitiveType"] = "Line",
+						["style"] = "solid",
 						["closed"] = false,
 						["thickness"] = 4,
-						["colorString"] = "0x0000ffff",
-						["style"] = "solid",
+						["mapX"] = -186427.1364481,
 						["layerName"] = "Blue",
 						["name"] = "WUN R-030",
 						["points"] = 
@@ -684,77 +939,27 @@ GSO R-145/4DME",
 							}, -- end of [2]
 							[3] = 
 							{
-								["y"] = 9688.877874418,
-								["x"] = 16564.855720779,
+								["y"] = 9247.4371505699,
+								["x"] = 17069.359405176,
 							}, -- end of [3]
 						}, -- end of ["points"]
-						["mapX"] = -186427.1364481,
-						["lineMode"] = "segments",
 					}, -- end of [23]
-					[19] = 
+					[24] = 
 					{
 						["visible"] = true,
-						["mapY"] = -830307.77833209,
-						["primitiveType"] = "Line",
-						["closed"] = false,
-						["thickness"] = 8,
-						["colorString"] = "0x0000ffff",
-						["style"] = "solid",
+						["borderThickness"] = 4,
+						["fillColorString"] = "0x0080ffff",
+						["fontSize"] = 13,
+						["mapY"] = -742687.27860017,
 						["layerName"] = "Blue",
-						["name"] = "sugar",
-						["points"] = 
-						{
-							[1] = 
-							{
-								["y"] = 0,
-								["x"] = 0,
-							}, -- end of [1]
-							[2] = 
-							{
-								["y"] = 0,
-								["x"] = 0,
-							}, -- end of [2]
-							[3] = 
-							{
-								["y"] = 1095.6355458744,
-								["x"] = 725.0529347698,
-							}, -- end of [3]
-						}, -- end of ["points"]
-						["mapX"] = -243311.00920353,
-						["lineMode"] = "segments",
-					}, -- end of [19]
-					[15] = 
-					{
-						["visible"] = true,
-						["mapY"] = -837039.82877033,
-						["primitiveType"] = "Line",
-						["closed"] = false,
-						["thickness"] = 4,
-						["colorString"] = "0x0000ffff",
-						["style"] = "solid",
-						["layerName"] = "Blue",
-						["name"] = "Line-4",
-						["points"] = 
-						{
-							[1] = 
-							{
-								["y"] = -10.201930692885,
-								["x"] = -195.53700494696,
-							}, -- end of [1]
-							[2] = 
-							{
-								["y"] = -3.400643564295,
-								["x"] = -185.33507425408,
-							}, -- end of [2]
-							[3] = 
-							{
-								["y"] = 9151.7267524366,
-								["x"] = 15580.8202083,
-							}, -- end of [3]
-						}, -- end of ["points"]
-						["mapX"] = -232068.39841734,
-						["lineMode"] = "segments",
-					}, -- end of [15]
+						["primitiveType"] = "TextBox",
+						["font"] = "DejaVuLGCSansCondensed.ttf",
+						["text"] = "WUN R-030",
+						["mapX"] = -179639.29103379,
+						["name"] = "WUN R-030-1",
+						["colorString"] = "0xffffffff",
+						["angle"] = 299,
+					}, -- end of [24]
 				}, -- end of ["objects"]
 			}, -- end of [2]
 			[3] = 
@@ -763,211 +968,6 @@ GSO R-145/4DME",
 				["name"] = "Neutral",
 				["objects"] = {},
 			}, -- end of [3]
-			[1] = 
-			{
-				["visible"] = true,
-				["name"] = "Red",
-				["objects"] = 
-				{
-					[7] = 
-					{
-						["visible"] = true,
-						["borderThickness"] = 4,
-						["mapY"] = -474508.91788371,
-						["layerName"] = "Red",
-						["angle"] = 0,
-						["colorString"] = "0xff7200ff",
-						["font"] = "DejaVuLGCSansCondensed.ttf",
-						["name"] = "TRoll BDZ",
-						["mapX"] = -124194.32536239,
-						["text"] = "SFC-1000 METER\
-TROLLENHAGEN BDZ\
-20KM \
-",
-						["fillColorString"] = "0xffffffff",
-						["primitiveType"] = "TextBox",
-						["fontSize"] = 19,
-					}, -- end of [7]
-					[1] = 
-					{
-						["visible"] = true,
-						["colorString"] = "0xff5c00ff",
-						["mapY"] = -611406.36757427,
-						["primitiveType"] = "Polygon",
-						["fillColorString"] = "0xffffff00",
-						["width"] = 107509.3046091,
-						["thickness"] = 8,
-						["polygonMode"] = "rect",
-						["style"] = "solid",
-						["name"] = "Sever Box",
-						["height"] = 53775.829667064,
-						["angle"] = 0,
-						["mapX"] = -124766.11317908,
-						["layerName"] = "Red",
-					}, -- end of [1]
-					[2] = 
-					{
-						["visible"] = true,
-						["borderThickness"] = 4,
-						["mapY"] = -553908.99019917,
-						["layerName"] = "Red",
-						["angle"] = 0,
-						["colorString"] = "0xff7200ff",
-						["font"] = "DejaVuLGCSansCondensed.ttf",
-						["name"] = "FEZ SEVER",
-						["mapX"] = -121669.19179089,
-						["text"] = "FEZ SEVER",
-						["fillColorString"] = "0xffffffff",
-						["primitiveType"] = "TextBox",
-						["fontSize"] = 19,
-					}, -- end of [2]
-					[4] = 
-					{
-						["visible"] = true,
-						["borderThickness"] = 4,
-						["mapY"] = -564474.41291692,
-						["layerName"] = "Red",
-						["angle"] = 0,
-						["colorString"] = "0xff7200ff",
-						["font"] = "DejaVuLGCSansCondensed.ttf",
-						["name"] = "FEZ CENTAR",
-						["mapX"] = -181235.0743112,
-						["text"] = "FEZ CENTAR",
-						["fillColorString"] = "0xffffffff",
-						["primitiveType"] = "TextBox",
-						["fontSize"] = 18,
-					}, -- end of [4]
-					[8] = 
-					{
-						["visible"] = true,
-						["radius"] = 19511.655760932,
-						["mapY"] = -473403.3081696,
-						["primitiveType"] = "Polygon",
-						["thickness"] = 8,
-						["colorString"] = "0xff5c00ff",
-						["style"] = "solid",
-						["layerName"] = "Red",
-						["name"] = "Troll BDZ Ring",
-						["fillColorString"] = "0xff000000",
-						["mapX"] = -94879.42444248,
-						["polygonMode"] = "circle",
-					}, -- end of [8]
-					[9] = 
-					{
-						["visible"] = true,
-						["borderThickness"] = 4,
-						["mapY"] = -437188.51834169,
-						["layerName"] = "Red",
-						["angle"] = 0,
-						["colorString"] = "0xff0000ff",
-						["font"] = "DejaVuLGCSansCondensed.ttf",
-						["name"] = "LVD3",
-						["mapX"] = -167122.69422177,
-						["text"] = "LVD3",
-						["fillColorString"] = "0xffffff80",
-						["primitiveType"] = "TextBox",
-						["fontSize"] = 24,
-					}, -- end of [9]
-					[5] = 
-					{
-						["visible"] = true,
-						["colorString"] = "0xff5c00ff",
-						["mapY"] = -644199.97253535,
-						["primitiveType"] = "Polygon",
-						["fillColorString"] = "0xff000000",
-						["width"] = 135429.68215815,
-						["thickness"] = 8,
-						["polygonMode"] = "rect",
-						["style"] = "solid",
-						["name"] = "YUG box",
-						["height"] = 48459.099282191,
-						["angle"] = 0,
-						["mapX"] = -228973.56223945,
-						["layerName"] = "Red",
-					}, -- end of [5]
-					[10] = 
-					{
-						["visible"] = true,
-						["borderThickness"] = 4,
-						["mapY"] = -437458.55796841,
-						["layerName"] = "Red",
-						["angle"] = 0,
-						["colorString"] = "0xff0000ff",
-						["font"] = "DejaVuLGCSansCondensed.ttf",
-						["name"] = "LVD1",
-						["mapX"] = -181095.20101302,
-						["text"] = "LVD1",
-						["fillColorString"] = "0xffffff80",
-						["primitiveType"] = "TextBox",
-						["fontSize"] = 24,
-					}, -- end of [10]
-					[3] = 
-					{
-						["visible"] = true,
-						["colorString"] = "0xff5c00ff",
-						["mapY"] = -621956.98526023,
-						["primitiveType"] = "Polygon",
-						["fillColorString"] = "0xff000000",
-						["width"] = 112550.16607477,
-						["thickness"] = 8,
-						["polygonMode"] = "rect",
-						["style"] = "solid",
-						["name"] = "Centar Box",
-						["height"] = 50306.513624328,
-						["angle"] = 0,
-						["mapX"] = -179451.18479497,
-						["layerName"] = "Red",
-					}, -- end of [3]
-					[6] = 
-					{
-						["visible"] = true,
-						["borderThickness"] = 4,
-						["mapY"] = -573978.26144334,
-						["layerName"] = "Red",
-						["angle"] = 0,
-						["colorString"] = "0xff7200ff",
-						["font"] = "DejaVuLGCSansCondensed.ttf",
-						["name"] = "Text Box-1-2",
-						["mapX"] = -235293.73745681,
-						["text"] = "FEZ YUG",
-						["fillColorString"] = "0xffffffff",
-						["primitiveType"] = "TextBox",
-						["fontSize"] = 19,
-					}, -- end of [6]
-					[11] = 
-					{
-						["visible"] = true,
-						["mapY"] = -599297.91433699,
-						["primitiveType"] = "Line",
-						["closed"] = false,
-						["thickness"] = 8,
-						["colorString"] = "0xff0000ff",
-						["style"] = "solid",
-						["layerName"] = "Red",
-						["name"] = "lvd line",
-						["points"] = 
-						{
-							[1] = 
-							{
-								["y"] = 0,
-								["x"] = 0,
-							}, -- end of [1]
-							[2] = 
-							{
-								["y"] = 0,
-								["x"] = 0,
-							}, -- end of [2]
-							[3] = 
-							{
-								["y"] = 209324.92168354,
-								["x"] = -500.77732460178,
-							}, -- end of [3]
-						}, -- end of ["points"]
-						["mapX"] = -171242.02264236,
-						["lineMode"] = "segments",
-					}, -- end of [11]
-				}, -- end of ["objects"]
-			}, -- end of [1]
 			[4] = 
 			{
 				["visible"] = true,
@@ -977,12 +977,14 @@ TROLLENHAGEN BDZ\
 					[1] = 
 					{
 						["visible"] = true,
+						["colorString"] = "0xff6000ff",
+						["lineMode"] = "segments",
 						["mapY"] = -606601.47193996,
 						["primitiveType"] = "Line",
+						["style"] = "dot",
 						["closed"] = false,
 						["thickness"] = 16,
-						["colorString"] = "0xff6000ff",
-						["style"] = "dot",
+						["mapX"] = -8214.4187079729,
 						["layerName"] = "Common",
 						["name"] = "IBG",
 						["points"] = 
@@ -1418,8 +1420,6 @@ TROLLENHAGEN BDZ\
 								["x"] = -146103.07973006,
 							}, -- end of [47]
 						}, -- end of ["points"]
-						["mapX"] = -8214.4187079729,
-						["lineMode"] = "segments",
 					}, -- end of [1]
 				}, -- end of ["objects"]
 			}, -- end of [4]
@@ -1440,17 +1440,17 @@ TROLLENHAGEN BDZ\
 			["at8000"] = 
 			{
 				["speed"] = 0,
-				["dir"] = 0,
+				["dir"] = 92,
 			}, -- end of ["at8000"]
 			["atGround"] = 
 			{
 				["speed"] = 0,
-				["dir"] = 0,
+				["dir"] = 83,
 			}, -- end of ["atGround"]
 			["at2000"] = 
 			{
 				["speed"] = 0,
-				["dir"] = 0,
+				["dir"] = 97,
 			}, -- end of ["at2000"]
 		}, -- end of ["wind"]
 		["enable_fog"] = false,
@@ -1458,7 +1458,7 @@ TROLLENHAGEN BDZ\
 		{
 			["temperature"] = 20,
 		}, -- end of ["season"]
-		["qnh"] = 760,
+		["qnh"] = 761.746,
 		["cyclones"] = {},
 		["dust_density"] = 0,
 		["enable_dust"] = false,
@@ -1466,7 +1466,7 @@ TROLLENHAGEN BDZ\
 		{
 			["thickness"] = 200,
 			["density"] = 0,
-			["preset"] = "Preset2",
+			["preset"] = "Preset4",
 			["base"] = 2500,
 			["iprecptns"] = 0,
 		}, -- end of ["clouds"]
@@ -1477,7 +1477,7 @@ TROLLENHAGEN BDZ\
 			["preset"] = "auto",
 		}, -- end of ["halo"]
 		["type_weather"] = 0,
-		["modifiedTime"] = false,
+		["modifiedTime"] = true,
 		["name"] = "Winter, clean sky",
 		["fog"] = 
 		{
@@ -1582,9 +1582,9 @@ TROLLENHAGEN BDZ\
 	}, -- end of ["triggers"]
 	["map"] = 
 	{
-		["centerY"] = -700000,
-		["zoom"] = 825958.7020649,
-		["centerX"] = -311100.68434879,
+		["centerY"] = -668730.49896351,
+		["zoom"] = 582571.69186712,
+		["centerX"] = -177246.19254142,
 	}, -- end of ["map"]
 	["coalitions"] = 
 	{
@@ -1702,8 +1702,8 @@ TROLLENHAGEN BDZ\
 		{
 			["bullseye"] = 
 			{
-				["y"] = 1,
-				["x"] = -1,
+				["y"] = -781,
+				["x"] = -384,
 			}, -- end of ["bullseye"]
 			["nav_points"] = 
 			{
@@ -28012,13 +28012,13 @@ TROLLENHAGEN BDZ\
 											["SoloFlight"] = false,
 											["Sta8LaserCode"] = 688,
 											["Sta5LaserCode"] = 688,
-											["Sta2LaserCode"] = 688,
+											["NetCrewControlPriority"] = -2,
 											["needsGCAlign"] = false,
 											["InitAirborneTime"] = 0,
 											["LCFTLaserCode"] = 688,
-											["HumanOrchestra"] = false,
+											["Sta2LaserCode"] = 688,
 											["IFF_M2_CODE"] = "auto",
-											["NetCrewControlPriority"] = -2,
+											["HumanOrchestra"] = false,
 											["InitAlertStatus"] = true,
 											["RCFTLaserCode"] = 688,
 											["MountNVG"] = true,
@@ -28205,13 +28205,13 @@ TROLLENHAGEN BDZ\
 											["SoloFlight"] = false,
 											["Sta8LaserCode"] = 688,
 											["Sta5LaserCode"] = 688,
-											["NetCrewControlPriority"] = -2,
+											["HumanOrchestra"] = false,
 											["needsGCAlign"] = false,
 											["InitAirborneTime"] = 0,
 											["InitAlertStatus"] = true,
-											["Sta2LaserCode"] = 688,
+											["NetCrewControlPriority"] = -2,
 											["IFF_M2_CODE"] = "auto",
-											["HumanOrchestra"] = false,
+											["Sta2LaserCode"] = 688,
 											["LCFTLaserCode"] = 688,
 											["RCFTLaserCode"] = 688,
 											["MountNVG"] = true,
@@ -28398,13 +28398,13 @@ TROLLENHAGEN BDZ\
 											["SoloFlight"] = false,
 											["Sta8LaserCode"] = 688,
 											["Sta5LaserCode"] = 688,
-											["NetCrewControlPriority"] = -2,
+											["HumanOrchestra"] = false,
 											["needsGCAlign"] = false,
 											["InitAirborneTime"] = 0,
 											["InitAlertStatus"] = true,
-											["Sta2LaserCode"] = 688,
+											["NetCrewControlPriority"] = -2,
 											["IFF_M2_CODE"] = "auto",
-											["HumanOrchestra"] = false,
+											["Sta2LaserCode"] = 688,
 											["LCFTLaserCode"] = 688,
 											["RCFTLaserCode"] = 688,
 											["MountNVG"] = true,
@@ -28591,13 +28591,13 @@ TROLLENHAGEN BDZ\
 											["SoloFlight"] = false,
 											["Sta8LaserCode"] = 688,
 											["Sta5LaserCode"] = 688,
-											["NetCrewControlPriority"] = -2,
+											["HumanOrchestra"] = false,
 											["needsGCAlign"] = false,
 											["InitAirborneTime"] = 0,
 											["InitAlertStatus"] = true,
-											["Sta2LaserCode"] = 688,
+											["NetCrewControlPriority"] = -2,
 											["IFF_M2_CODE"] = "auto",
-											["HumanOrchestra"] = false,
+											["Sta2LaserCode"] = 688,
 											["LCFTLaserCode"] = 688,
 											["RCFTLaserCode"] = 688,
 											["MountNVG"] = true,
@@ -29375,13 +29375,13 @@ TROLLENHAGEN BDZ\
 											["SoloFlight"] = false,
 											["Sta8LaserCode"] = 688,
 											["Sta5LaserCode"] = 688,
-											["Sta2LaserCode"] = 688,
+											["NetCrewControlPriority"] = 0,
 											["needsGCAlign"] = false,
 											["InitAirborneTime"] = 0,
 											["LCFTLaserCode"] = 688,
-											["HumanOrchestra"] = false,
+											["Sta2LaserCode"] = 688,
 											["IFF_M2_CODE"] = "auto",
-											["NetCrewControlPriority"] = 0,
+											["HumanOrchestra"] = false,
 											["InitAlertStatus"] = false,
 											["RCFTLaserCode"] = 688,
 											["MountNVG"] = false,
@@ -29568,13 +29568,13 @@ TROLLENHAGEN BDZ\
 											["SoloFlight"] = false,
 											["Sta8LaserCode"] = 688,
 											["Sta5LaserCode"] = 688,
-											["NetCrewControlPriority"] = 0,
+											["HumanOrchestra"] = false,
 											["needsGCAlign"] = false,
 											["InitAirborneTime"] = 0,
 											["InitAlertStatus"] = false,
-											["Sta2LaserCode"] = 688,
+											["NetCrewControlPriority"] = 0,
 											["IFF_M2_CODE"] = "auto",
-											["HumanOrchestra"] = false,
+											["Sta2LaserCode"] = 688,
 											["LCFTLaserCode"] = 688,
 											["RCFTLaserCode"] = 688,
 											["MountNVG"] = false,
@@ -29761,13 +29761,13 @@ TROLLENHAGEN BDZ\
 											["SoloFlight"] = false,
 											["Sta8LaserCode"] = 688,
 											["Sta5LaserCode"] = 688,
-											["NetCrewControlPriority"] = 0,
+											["HumanOrchestra"] = false,
 											["needsGCAlign"] = false,
 											["InitAirborneTime"] = 0,
 											["InitAlertStatus"] = false,
-											["Sta2LaserCode"] = 688,
+											["NetCrewControlPriority"] = 0,
 											["IFF_M2_CODE"] = "auto",
-											["HumanOrchestra"] = false,
+											["Sta2LaserCode"] = 688,
 											["LCFTLaserCode"] = 688,
 											["RCFTLaserCode"] = 688,
 											["MountNVG"] = false,
@@ -29954,13 +29954,13 @@ TROLLENHAGEN BDZ\
 											["SoloFlight"] = false,
 											["Sta8LaserCode"] = 688,
 											["Sta5LaserCode"] = 688,
-											["NetCrewControlPriority"] = 0,
+											["HumanOrchestra"] = false,
 											["needsGCAlign"] = false,
 											["InitAirborneTime"] = 0,
 											["InitAlertStatus"] = false,
-											["Sta2LaserCode"] = 688,
+											["NetCrewControlPriority"] = 0,
 											["IFF_M2_CODE"] = "auto",
-											["HumanOrchestra"] = false,
+											["Sta2LaserCode"] = 688,
 											["LCFTLaserCode"] = 688,
 											["RCFTLaserCode"] = 688,
 											["MountNVG"] = false,
@@ -54697,8 +54697,8 @@ TROLLENHAGEN BDZ\
 		{
 			["bullseye"] = 
 			{
-				["y"] = -1,
-				["x"] = -1,
+				["y"] = -781,
+				["x"] = -384,
 			}, -- end of ["bullseye"]
 			["nav_points"] = 
 			{
@@ -58251,14 +58251,14 @@ JBG-77\
 											["RightEngineResource"] = 100,
 											["R60equipment"] = true,
 											["PilotNVG"] = true,
-											["HumanOrchestra"] = false,
 											["NetCrewControlPriority"] = -2,
+											["GunnersAISkill"] = 90,
 											["TrackAirTargets"] = true,
 											["SimplifiedAI"] = false,
 											["OperatorNVG"] = true,
 											["ExhaustScreen"] = true,
 											["OverrideIFF"] = 0,
-											["GunnersAISkill"] = 90,
+											["HumanOrchestra"] = false,
 											["HideAngleBoxes"] = false,
 											["NS430allow"] = true,
 										}, -- end of ["AddPropAircraft"]
@@ -58345,8 +58345,8 @@ JBG-77\
 										{
 											["LeftEngineResource"] = 100,
 											["RightEngineResource"] = 100,
-											["HumanOrchestra"] = false,
 											["OverrideIFF"] = 0,
+											["PilotNVG"] = true,
 											["GunnersAISkill"] = 90,
 											["NetCrewControlPriority"] = -2,
 											["TrackAirTargets"] = true,
@@ -58354,7 +58354,7 @@ JBG-77\
 											["SimplifiedAI"] = false,
 											["ExhaustScreen"] = true,
 											["OperatorNVG"] = true,
-											["PilotNVG"] = true,
+											["HumanOrchestra"] = false,
 											["R60equipment"] = true,
 											["NS430allow"] = true,
 										}, -- end of ["AddPropAircraft"]
@@ -58441,8 +58441,8 @@ JBG-77\
 										{
 											["LeftEngineResource"] = 100,
 											["RightEngineResource"] = 100,
-											["HumanOrchestra"] = false,
 											["OverrideIFF"] = 0,
+											["PilotNVG"] = true,
 											["GunnersAISkill"] = 90,
 											["NetCrewControlPriority"] = -2,
 											["TrackAirTargets"] = true,
@@ -58450,7 +58450,7 @@ JBG-77\
 											["SimplifiedAI"] = false,
 											["ExhaustScreen"] = true,
 											["OperatorNVG"] = true,
-											["PilotNVG"] = true,
+											["HumanOrchestra"] = false,
 											["R60equipment"] = true,
 											["NS430allow"] = true,
 										}, -- end of ["AddPropAircraft"]
@@ -58537,8 +58537,8 @@ JBG-77\
 										{
 											["LeftEngineResource"] = 100,
 											["RightEngineResource"] = 100,
-											["HumanOrchestra"] = false,
 											["OverrideIFF"] = 0,
+											["PilotNVG"] = true,
 											["GunnersAISkill"] = 90,
 											["NetCrewControlPriority"] = -2,
 											["TrackAirTargets"] = true,
@@ -58546,7 +58546,7 @@ JBG-77\
 											["SimplifiedAI"] = false,
 											["ExhaustScreen"] = true,
 											["OperatorNVG"] = true,
-											["PilotNVG"] = true,
+											["HumanOrchestra"] = false,
 											["R60equipment"] = true,
 											["NS430allow"] = true,
 										}, -- end of ["AddPropAircraft"]
@@ -58704,8 +58704,8 @@ JBG-77\
 										{
 											["LeftEngineResource"] = 90,
 											["RightEngineResource"] = 90,
-											["NetCrewControlPriority"] = 0,
 											["PilotNVG"] = true,
+											["OverrideIFF"] = 0,
 											["GunnersAISkill"] = 90,
 											["HumanOrchestra"] = false,
 											["R60equipment"] = true,
@@ -58713,7 +58713,7 @@ JBG-77\
 											["SimplifiedAI"] = false,
 											["ExhaustScreen"] = true,
 											["HideAngleBoxes"] = false,
-											["OverrideIFF"] = 0,
+											["NetCrewControlPriority"] = 0,
 											["TrackAirTargets"] = true,
 											["NS430allow"] = true,
 										}, -- end of ["AddPropAircraft"]
@@ -58798,8 +58798,8 @@ JBG-77\
 										{
 											["LeftEngineResource"] = 90,
 											["RightEngineResource"] = 90,
-											["NetCrewControlPriority"] = 0,
 											["PilotNVG"] = true,
+											["OverrideIFF"] = 0,
 											["HumanOrchestra"] = false,
 											["GunnersAISkill"] = 90,
 											["R60equipment"] = true,
@@ -58807,7 +58807,7 @@ JBG-77\
 											["SimplifiedAI"] = false,
 											["ExhaustScreen"] = true,
 											["HideAngleBoxes"] = false,
-											["OverrideIFF"] = 0,
+											["NetCrewControlPriority"] = 0,
 											["TrackAirTargets"] = true,
 											["NS430allow"] = true,
 										}, -- end of ["AddPropAircraft"]
@@ -58892,8 +58892,8 @@ JBG-77\
 										{
 											["LeftEngineResource"] = 90,
 											["RightEngineResource"] = 90,
-											["NetCrewControlPriority"] = 0,
 											["PilotNVG"] = true,
+											["OverrideIFF"] = 0,
 											["HumanOrchestra"] = false,
 											["GunnersAISkill"] = 90,
 											["R60equipment"] = true,
@@ -58901,7 +58901,7 @@ JBG-77\
 											["SimplifiedAI"] = false,
 											["ExhaustScreen"] = true,
 											["HideAngleBoxes"] = false,
-											["OverrideIFF"] = 0,
+											["NetCrewControlPriority"] = 0,
 											["TrackAirTargets"] = true,
 											["NS430allow"] = true,
 										}, -- end of ["AddPropAircraft"]
@@ -58986,8 +58986,8 @@ JBG-77\
 										{
 											["LeftEngineResource"] = 90,
 											["RightEngineResource"] = 90,
-											["NetCrewControlPriority"] = 0,
 											["PilotNVG"] = true,
+											["OverrideIFF"] = 0,
 											["HumanOrchestra"] = false,
 											["GunnersAISkill"] = 90,
 											["R60equipment"] = true,
@@ -58995,7 +58995,7 @@ JBG-77\
 											["SimplifiedAI"] = false,
 											["ExhaustScreen"] = true,
 											["HideAngleBoxes"] = false,
-											["OverrideIFF"] = 0,
+											["NetCrewControlPriority"] = 0,
 											["TrackAirTargets"] = true,
 											["NS430allow"] = true,
 										}, -- end of ["AddPropAircraft"]
@@ -78563,7 +78563,7 @@ JBG-77\
 			}, -- end of ["actions"]
 		}, -- end of [2]
 	}, -- end of ["trigrules"]
-	["currentKey"] = 1570110,
+	["currentKey"] = 1619954,
 	["failures"] = 
 	{
 		["pp_damage_EmergMaxTempr"] = 
@@ -89482,5 +89482,5 @@ JBG-77\
 		["wakeTurbulence"] = false,
 		["labels"] = 0,
 	}, -- end of ["forcedOptions"]
-	["start_time"] = 28800,
+	["start_time"] = 43200,
 } -- end of mission
