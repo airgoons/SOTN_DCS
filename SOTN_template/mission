@@ -174,8 +174,7 @@ mission =
 						["text"] = "MRR Alpha\
 BKD 124X\
 East: 19-23K\
-West: 15-18K\
-",
+West: 15-18K",
 						["angle"] = 0,
 						["mapX"] = -169131.11923549,
 						["font"] = "DejaVuLGCSansCondensed.ttf",
@@ -2425,8 +2424,7 @@ TROLLENHAGEN BDZ\
 					["type"] = "Default",
 					["comment"] = "52nd Tactical Fighter Wing\
 - F-4G\
-- F-16C\
-",
+- F-16C",
 					["callsignStr"] = "",
 					["id"] = 4104,
 					["properties"] = 
@@ -2444,8 +2442,7 @@ TROLLENHAGEN BDZ\
 				{
 					["type"] = "Default",
 					["comment"] = "66th Electronic Combat Wing\
-- EC-130H\
-",
+- EC-130H",
 					["callsignStr"] = "",
 					["id"] = 4105,
 					["properties"] = 
@@ -2481,8 +2478,7 @@ TROLLENHAGEN BDZ\
 				{
 					["type"] = "Default",
 					["comment"] = "26th Tactical Reconnaisance Wing\
-- RF-4C\
-",
+- RF-4C",
 					["callsignStr"] = "",
 					["id"] = 4107,
 					["properties"] = 
@@ -2500,8 +2496,7 @@ TROLLENHAGEN BDZ\
 				{
 					["type"] = "Default",
 					["comment"] = "36th Tactical Fighter Wing\
-- F-15C\
-",
+- F-15C",
 					["callsignStr"] = "",
 					["id"] = 4108,
 					["properties"] = 
@@ -46549,8 +46544,7 @@ TROLLENHAGEN BDZ\
 				[3] = 
 				{
 					["type"] = "Default",
-					["comment"] = "\
-",
+					["comment"] = "",
 					["callsignStr"] = "13 FRR HQ",
 					["id"] = 326,
 					["properties"] = 
@@ -49512,10 +49506,7 @@ TROLLENHAGEN BDZ\
 - MiG-23MLD\
 \
 65 Selbständige Zielschleppfliegerstaffel\
-- Il-28\
-\
-\
-",
+- Il-28",
 					["callsignStr"] = "",
 					["id"] = 2793,
 					["properties"] = 
@@ -49594,8 +49585,7 @@ TROLLENHAGEN BDZ\
 				{
 					["type"] = "Default",
 					["comment"] = "20 Garde Jagdbombenfliegerregiment\
-- Su-17M3\
-",
+- Su-17M3",
 					["callsignStr"] = "",
 					["id"] = 2797,
 					["properties"] = 
@@ -49613,8 +49603,7 @@ TROLLENHAGEN BDZ\
 				{
 					["type"] = "Default",
 					["comment"] = "730 Jagdbomber-Luftfahrtregiment\
-- Su-17M\
-",
+- Su-17M",
 					["callsignStr"] = "",
 					["id"] = 2798,
 					["properties"] = 
@@ -49651,9 +49640,7 @@ TROLLENHAGEN BDZ\
 				{
 					["type"] = "Default",
 					["comment"] = "Jagdfliegergeschwader 9\
-- MiG-23MLD\
-\
-",
+- MiG-23MLD",
 					["callsignStr"] = "",
 					["id"] = 3122,
 					["properties"] = 
@@ -49673,8 +49660,7 @@ TROLLENHAGEN BDZ\
 					["comment"] = "Jagdbombenfliegergeschwader 77\
 - Su-22M-4\
 Marinefliegergeschwader 28\
-- Su-22M-4\
-",
+- Su-22M-4",
 					["callsignStr"] = "",
 					["id"] = 3445,
 					["properties"] = 
@@ -49736,8 +49722,7 @@ JBG-77\
 					["type"] = "Default",
 					["comment"] = "172 Selbstandiges Kampfhubschrauberregiment\
 - Mi-24\
-- Mi-8\
-",
+- Mi-8",
 					["callsignStr"] = "",
 					["id"] = 3448,
 					["properties"] = 
@@ -49855,8 +49840,7 @@ JBG-77\
 					["type"] = "Default",
 					["comment"] = "35 Jagdfliegerregiment\
 - MiG-23MLD\
-- MiG-29A\
-",
+- MiG-29A",
 					["callsignStr"] = "",
 					["id"] = 3454,
 					["properties"] = 
@@ -49875,8 +49859,7 @@ JBG-77\
 					["type"] = "Default",
 					["comment"] = "292 Selbstandige Hubschrauberstaffel\
 - Mi-8\
-- Mi-9\
-",
+- Mi-9",
 					["callsignStr"] = "",
 					["id"] = 3455,
 					["properties"] = 
@@ -49895,8 +49878,7 @@ JBG-77\
 					["type"] = "Default",
 					["comment"] = "73 Gardejagdfliegerregiment\
 - MiG-23MLD\
-- MiG-29A\
-",
+- MiG-29A",
 					["callsignStr"] = "",
 					["id"] = 3456,
 					["properties"] = 
@@ -49915,8 +49897,7 @@ JBG-77\
 					["type"] = "Default",
 					["comment"] = "85 Gardejagdfliegerregiment\
 - MiG-23MLD\
-- MiG-29A\
-",
+- MiG-29A",
 					["callsignStr"] = "ADDER",
 					["id"] = 3457,
 					["properties"] = 
@@ -64645,8 +64626,7 @@ JBG-77\
 			{
 				[1] = 
 				{
-					["text"] = "dofile([[C:\\Users\\GoonAdmin\\Desktop\\SOTN Scripts\\Moose.lua]])\
-",
+					["text"] = "dofile([[C:\\Users\\GoonAdmin\\Desktop\\SOTN Scripts\\Moose.lua]])",
 					["predicate"] = "a_do_script",
 				}, -- end of [1]
 			}, -- end of ["actions"]
