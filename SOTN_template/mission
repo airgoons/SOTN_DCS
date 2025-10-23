@@ -1807,8 +1807,8 @@ TROLLENHAGEN BDZ\
 		{
 			["bullseye"] = 
 			{
-				["y"] = 0,
-				["x"] = 0,
+				["y"] = 10,
+				["x"] = 10,
 			}, -- end of ["bullseye"]
 			["nav_points"] = {},
 			["name"] = "neutrals",
@@ -1818,8 +1818,8 @@ TROLLENHAGEN BDZ\
 		{
 			["bullseye"] = 
 			{
-				["y"] = -781,
-				["x"] = -384,
+				["y"] = 22,
+				["x"] = 22,
 			}, -- end of ["bullseye"]
 			["nav_points"] = 
 			{
@@ -46511,8 +46511,8 @@ TROLLENHAGEN BDZ\
 		{
 			["bullseye"] = 
 			{
-				["y"] = -781,
-				["x"] = -384,
+				["y"] = 22,
+				["x"] = 22,
 			}, -- end of ["bullseye"]
 			["nav_points"] = 
 			{
