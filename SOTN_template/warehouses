@@ -806,7 +806,7 @@ warehouses =
 			{
 				["helicopters"] = 
 				{
-					["OH58D"] = 
+					["AH-64D"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -814,10 +814,10 @@ warehouses =
 							[1] = 1,
 							[2] = 2,
 							[3] = 6,
-							[4] = 336,
+							[4] = 158,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["OH58D"]
+					}, -- end of ["AH-64D"]
 					["SH-3W"] = 
 					{
 						["initialAmount"] = 100,
@@ -842,6 +842,18 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["AH-64D_BLK_II"]
+					["CH-53E"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 2,
+							[3] = 25,
+							[4] = 160,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["CH-53E"]
 					["UH-60A"] = 
 					{
 						["initialAmount"] = 100,
@@ -866,30 +878,6 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mi-24P"]
-					["CH-53E"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 2,
-							[3] = 25,
-							[4] = 160,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["CH-53E"]
-					["Mi-8MT"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 2,
-							[3] = 6,
-							[4] = 151,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["Mi-8MT"]
 					["SA342Mistral"] = 
 					{
 						["initialAmount"] = 100,
@@ -902,6 +890,30 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["SA342Mistral"]
+					["Mi-8MT"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 2,
+							[3] = 6,
+							[4] = 151,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Mi-8MT"]
+					["Mi-28N"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 2,
+							[3] = 6,
+							[4] = 341,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Mi-28N"]
 					["Mi-24V"] = 
 					{
 						["initialAmount"] = 100,
@@ -950,7 +962,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Ka-50"]
-					["AH-64D"] = 
+					["OH58D"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -958,10 +970,10 @@ warehouses =
 							[1] = 1,
 							[2] = 2,
 							[3] = 6,
-							[4] = 158,
+							[4] = 336,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["AH-64D"]
+					}, -- end of ["OH58D"]
 					["CH-47Fbl1"] = 
 					{
 						["initialAmount"] = 100,
@@ -998,30 +1010,6 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["AH-1W"]
-					["SA342M"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 2,
-							[3] = 6,
-							[4] = 289,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["SA342M"]
-					["Mi-26"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 2,
-							[3] = 25,
-							[4] = 153,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["Mi-26"]
 					["Ka-27"] = 
 					{
 						["initialAmount"] = 100,
@@ -1034,6 +1022,30 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Ka-27"]
+					["SA342M"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 2,
+							[3] = 6,
+							[4] = 289,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["SA342M"]
+					["OH-58D"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 2,
+							[3] = 6,
+							[4] = 168,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["OH-58D"]
 					["Ka-50_3"] = 
 					{
 						["initialAmount"] = 100,
@@ -1058,18 +1070,18 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["SH-60B"]
-					["OH-58D"] = 
+					["Mi-26"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
 						{
 							[1] = 1,
 							[2] = 2,
-							[3] = 6,
-							[4] = 168,
+							[3] = 25,
+							[4] = 153,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["OH-58D"]
+					}, -- end of ["Mi-26"]
 					["AH-64A"] = 
 					{
 						["initialAmount"] = 100,
@@ -1094,18 +1106,19 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["UH-1H"]
-					["Mi-28N"] = 
+					["UH-60L"] = 
 					{
 						["initialAmount"] = 100,
+						["linkDynTempl"] = 0,
 						["wsType"] = 
 						{
 							[1] = 1,
 							[2] = 2,
 							[3] = 6,
-							[4] = 341,
+							[4] = 349,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["Mi-28N"]
+					}, -- end of ["UH-60L"]
 				}, -- end of ["helicopters"]
 				["planes"] = 
 				{
@@ -1133,19 +1146,6 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["L-39ZA"]
-					["B-17G"] = 
-					{
-						["initialAmount"] = 100,
-						["linkDynTempl"] = 0,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 4,
-							[4] = 294,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["B-17G"]
 					["F4U-1D_CW"] = 
 					{
 						["initialAmount"] = 100,
@@ -1254,7 +1254,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["F-15ESE"]
-					["Su-30"] = 
+					["F/A-18C"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -1262,10 +1262,10 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 13,
+							[4] = 53,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["Su-30"]
+					}, -- end of ["F/A-18C"]
 					["QF-4E"] = 
 					{
 						["initialAmount"] = 100,
@@ -1315,7 +1315,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Tu-142"]
-					["M-2000C"] = 
+					["F-15E"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -1323,10 +1323,10 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 284,
+							[4] = 59,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["M-2000C"]
+					}, -- end of ["F-15E"]
 					["B-52H"] = 
 					{
 						["initialAmount"] = 100,
@@ -1363,7 +1363,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["A-4E-C"]
-					["AJS37"] = 
+					["P-47D-30bl1"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -1371,10 +1371,10 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 265,
+							[4] = 261,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["AJS37"]
+					}, -- end of ["P-47D-30bl1"]
 					["Tornado IDS"] = 
 					{
 						["initialAmount"] = 100,
@@ -1399,18 +1399,18 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["IL-78M"]
-					["MiG-15bis"] = 
+					["A-20G"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
 						{
 							[1] = 1,
 							[2] = 1,
-							[3] = 1,
-							[4] = 286,
+							[3] = 4,
+							[4] = 263,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-15bis"]
+					}, -- end of ["A-20G"]
 					["MiG-25RBT"] = 
 					{
 						["initialAmount"] = 100,
@@ -1471,18 +1471,18 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["KC-135"]
-					["Mirage-F1BQ"] = 
+					["MiG-25PD"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
 						{
 							[1] = 1,
 							[2] = 1,
-							[3] = 1,
-							[4] = 321,
+							[3] = 3,
+							[4] = 24,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["Mirage-F1BQ"]
+					}, -- end of ["MiG-25PD"]
 					["F-14A-135-GR"] = 
 					{
 						["initialAmount"] = 100,
@@ -1519,7 +1519,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["F-15C"]
-					["Tornado GR4"] = 
+					["F-16A MLU"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -1527,10 +1527,10 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 10,
+							[4] = 52,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["Tornado GR4"]
+					}, -- end of ["F-16A MLU"]
 					["Mirage-F1BD"] = 
 					{
 						["initialAmount"] = 100,
@@ -1555,18 +1555,18 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1M-EE"]
-					["Christen Eagle II"] = 
+					["An-30M"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
 						{
 							[1] = 1,
 							[2] = 1,
-							[3] = 1,
-							[4] = 274,
+							[3] = 5,
+							[4] = 40,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["Christen Eagle II"]
+					}, -- end of ["An-30M"]
 					["MQ-9 Reaper"] = 
 					{
 						["initialAmount"] = 100,
@@ -1579,7 +1579,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["MQ-9 Reaper"]
-					["Hawk"] = 
+					["F-5E-3_FC"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -1587,10 +1587,10 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 281,
+							[4] = 331,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["Hawk"]
+					}, -- end of ["F-5E-3_FC"]
 					["Mirage-F1EQ"] = 
 					{
 						["initialAmount"] = 100,
@@ -1977,6 +1977,18 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1EDA"]
+					["Mirage-F1ED"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 315,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Mirage-F1ED"]
 					["WingLoong-I"] = 
 					{
 						["initialAmount"] = 100,
@@ -1989,30 +2001,30 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["WingLoong-I"]
-					["MiG-31"] = 
+					["TF-51D"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
 						{
 							[1] = 1,
 							[2] = 1,
-							[3] = 3,
-							[4] = 9,
+							[3] = 1,
+							[4] = 65,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-31"]
-					["An-30M"] = 
+					}, -- end of ["TF-51D"]
+					["MiG-15bis_FC"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
 						{
 							[1] = 1,
 							[2] = 1,
-							[3] = 5,
-							[4] = 40,
+							[3] = 1,
+							[4] = 333,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["An-30M"]
+					}, -- end of ["MiG-15bis_FC"]
 					["S-3B Tanker"] = 
 					{
 						["initialAmount"] = 100,
@@ -2049,30 +2061,18 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["JF-17"]
-					["F-5E-3_FC"] = 
+					["MiG-31"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
 						{
 							[1] = 1,
 							[2] = 1,
-							[3] = 1,
-							[4] = 331,
+							[3] = 3,
+							[4] = 9,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["F-5E-3_FC"]
-					["Mirage-F1CT"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 318,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["Mirage-F1CT"]
+					}, -- end of ["MiG-31"]
 					["Mirage-F1CZ"] = 
 					{
 						["initialAmount"] = 100,
@@ -2085,7 +2085,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1CZ"]
-					["Mirage-F1DDA"] = 
+					["Mirage-F1C-200"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -2093,23 +2093,11 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 323,
+							[4] = 306,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["Mirage-F1DDA"]
-					["A-20G"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 4,
-							[4] = 263,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["A-20G"]
-					["F-16C bl.52d"] = 
+					}, -- end of ["Mirage-F1C-200"]
+					["MiG-15bis"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -2117,10 +2105,34 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 7,
+							[4] = 286,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["F-16C bl.52d"]
+					}, -- end of ["MiG-15bis"]
+					["F4U-1D"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 339,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["F4U-1D"]
+					["Mirage-F1BQ"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 321,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Mirage-F1BQ"]
 					["Yak-52"] = 
 					{
 						["initialAmount"] = 100,
@@ -2157,18 +2169,6 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["FA-18C_hornet"]
-					["Mirage-F1CJ"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 312,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["Mirage-F1CJ"]
 					["Tu-95MS"] = 
 					{
 						["initialAmount"] = 100,
@@ -2181,7 +2181,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Tu-95MS"]
-					["TF-51D"] = 
+					["Mirage-F1DDA"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -2189,10 +2189,22 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 65,
+							[4] = 323,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["TF-51D"]
+					}, -- end of ["Mirage-F1DDA"]
+					["Mirage-F1CJ"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 312,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Mirage-F1CJ"]
 					["FW-190A8"] = 
 					{
 						["initialAmount"] = 100,
@@ -2217,18 +2229,18 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1CK"]
-					["E-3A"] = 
+					["Mirage-F1JA"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
 						{
 							[1] = 1,
 							[2] = 1,
-							[3] = 5,
-							[4] = 27,
+							[3] = 1,
+							[4] = 309,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["E-3A"]
+					}, -- end of ["Mirage-F1JA"]
 					["P-47D-30"] = 
 					{
 						["initialAmount"] = 100,
@@ -2241,7 +2253,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["P-47D-30"]
-					["MiG-27K"] = 
+					["Mirage-F1CT"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -2249,10 +2261,10 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 11,
+							[4] = 318,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-27K"]
+					}, -- end of ["Mirage-F1CT"]
 					["A-10C"] = 
 					{
 						["initialAmount"] = 100,
@@ -2277,7 +2289,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["A-10A"]
-					["Mirage-F1ED"] = 
+					["MiG-29S"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -2285,10 +2297,10 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 315,
+							[4] = 50,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["Mirage-F1ED"]
+					}, -- end of ["MiG-29S"]
 					["P-51D"] = 
 					{
 						["initialAmount"] = 100,
@@ -2301,54 +2313,6 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["P-51D"]
-					["Mirage-F1BE"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 320,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["Mirage-F1BE"]
-					["F4U-1D"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 339,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["F4U-1D"]
-					["Mirage-F1CH"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 308,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["Mirage-F1CH"]
-					["Su-24M"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 12,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["Su-24M"]
 					["Mirage-F1B"] = 
 					{
 						["initialAmount"] = 100,
@@ -2361,6 +2325,54 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1B"]
+					["Mirage-F1EH"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 307,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Mirage-F1EH"]
+					["Mirage-F1CH"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 308,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Mirage-F1CH"]
+					["F-16C bl.52d"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 7,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["F-16C bl.52d"]
+					["P-51D-30-NA"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 64,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["P-51D-30-NA"]
 					["F-14B"] = 
 					{
 						["initialAmount"] = 100,
@@ -2409,7 +2421,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["C-130"]
-					["VSN_F104C"] = 
+					["Tornado GR4"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -2417,22 +2429,22 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 353,
+							[4] = 10,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["VSN_F104C"]
-					["Mirage-F1JA"] = 
+					}, -- end of ["Tornado GR4"]
+					["E-3A"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
 						{
 							[1] = 1,
 							[2] = 1,
-							[3] = 1,
-							[4] = 309,
+							[3] = 5,
+							[4] = 27,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["Mirage-F1JA"]
+					}, -- end of ["E-3A"]
 					["J-11A"] = 
 					{
 						["initialAmount"] = 100,
@@ -2445,7 +2457,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["J-11A"]
-					["MiG-15bis_FC"] = 
+					["Su-24M"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -2453,10 +2465,10 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 333,
+							[4] = 12,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-15bis_FC"]
+					}, -- end of ["Su-24M"]
 					["F-14A"] = 
 					{
 						["initialAmount"] = 100,
@@ -2481,79 +2493,6 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["SpitfireLFMkIX"]
-					["MiG-25PD"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 3,
-							[4] = 24,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["MiG-25PD"]
-					["B-1B"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 2,
-							[4] = 19,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["B-1B"]
-					["MiG-29S"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 50,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["MiG-29S"]
-					["MiG-19P"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 287,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["MiG-19P"]
-					["C-47"] = 
-					{
-						["initialAmount"] = 100,
-						["linkDynTempl"] = 0,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 5,
-							[4] = 299,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["C-47"]
-					["Mirage-F1C-200"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 306,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["Mirage-F1C-200"]
 					["MosquitoFBMkVI"] = 
 					{
 						["initialAmount"] = 100,
@@ -2566,6 +2505,80 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["MosquitoFBMkVI"]
+					["B-1B"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 2,
+							[4] = 19,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["B-1B"]
+					["Hercules"] = 
+					{
+						["initialAmount"] = 100,
+						["linkDynTempl"] = 0,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 5,
+							[4] = 348,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Hercules"]
+					["Christen Eagle II"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 274,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Christen Eagle II"]
+					["Su-30"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 13,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Su-30"]
+					["C-130J-30"] = 
+					{
+						["initialAmount"] = 100,
+						["linkDynTempl"] = 0,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 5,
+							[4] = 344,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["C-130J-30"]
+					["MiG-19P"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 287,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["MiG-19P"]
 					["L-39C"] = 
 					{
 						["initialAmount"] = 100,
@@ -2590,7 +2603,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Yak-40"]
-					["P-51D-30-NA"] = 
+					["VSN_F104C"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -2598,11 +2611,11 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 64,
+							[4] = 353,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["P-51D-30-NA"]
-					["Mirage-F1AZ"] = 
+					}, -- end of ["VSN_F104C"]
+					["AJS37"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -2610,10 +2623,10 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 335,
+							[4] = 265,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["Mirage-F1AZ"]
+					}, -- end of ["AJS37"]
 					["MiG-29G"] = 
 					{
 						["initialAmount"] = 100,
@@ -2638,7 +2651,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1EE"]
-					["F-16A MLU"] = 
+					["Mirage-F1AZ"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -2646,11 +2659,11 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 52,
+							[4] = 335,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["F-16A MLU"]
-					["P-47D-30bl1"] = 
+					}, -- end of ["Mirage-F1AZ"]
+					["M-2000C"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -2658,46 +2671,10 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 261,
+							[4] = 284,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["P-47D-30bl1"]
-					["F/A-18C"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 53,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["F/A-18C"]
-					["C-101CC"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 6,
-							[4] = 270,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["C-101CC"]
-					["F-15E"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 59,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["F-15E"]
+					}, -- end of ["M-2000C"]
 					["P-47D-40"] = 
 					{
 						["initialAmount"] = 100,
@@ -2710,66 +2687,31 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["P-47D-40"]
-					["A-50"] = 
+					["C-101CC"] = 
 					{
 						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 6,
+							[4] = 270,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["C-101CC"]
+					["KC130J"] = 
+					{
+						["initialAmount"] = 100,
+						["linkDynTempl"] = 0,
 						["wsType"] = 
 						{
 							[1] = 1,
 							[2] = 1,
 							[3] = 5,
-							[4] = 26,
+							[4] = 350,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["A-50"]
-					["Mirage-F1EH"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 307,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["Mirage-F1EH"]
-					["IL-76MD"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 5,
-							[4] = 30,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["IL-76MD"]
-					["Bf-109K-4"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 257,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["Bf-109K-4"]
-					["Su-34"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 20,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["Su-34"]
+					}, -- end of ["KC130J"]
 					["F-5E"] = 
 					{
 						["initialAmount"] = 100,
@@ -2782,19 +2724,90 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["F-5E"]
-					["Ju-88A4"] = 
+					["A-50"] = 
 					{
 						["initialAmount"] = 100,
-						["linkDynTempl"] = 0,
 						["wsType"] = 
 						{
 							[1] = 1,
 							[2] = 1,
-							[3] = 4,
-							[4] = 295,
+							[3] = 5,
+							[4] = 26,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["Ju-88A4"]
+					}, -- end of ["A-50"]
+					["Hawk"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 281,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Hawk"]
+					["IL-76MD"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 5,
+							[4] = 30,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["IL-76MD"]
+					["Mirage-F1BE"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 320,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Mirage-F1BE"]
+					["Su-34"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 20,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Su-34"]
+					["Bf-109K-4"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 257,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Bf-109K-4"]
+					["MiG-27K"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 11,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["MiG-27K"]
 				}, -- end of ["planes"]
 			}, -- end of ["aircrafts"]
 			["weapons"] = {},
@@ -3115,7 +3128,7 @@ warehouses =
 			{
 				["helicopters"] = 
 				{
-					["OH58D"] = 
+					["AH-64D"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -3123,10 +3136,10 @@ warehouses =
 							[1] = 1,
 							[2] = 2,
 							[3] = 6,
-							[4] = 336,
+							[4] = 158,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["OH58D"]
+					}, -- end of ["AH-64D"]
 					["SH-3W"] = 
 					{
 						["initialAmount"] = 100,
@@ -3151,6 +3164,18 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["AH-64D_BLK_II"]
+					["CH-53E"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 2,
+							[3] = 25,
+							[4] = 160,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["CH-53E"]
 					["UH-60A"] = 
 					{
 						["initialAmount"] = 100,
@@ -3175,30 +3200,6 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mi-24P"]
-					["CH-53E"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 2,
-							[3] = 25,
-							[4] = 160,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["CH-53E"]
-					["Mi-8MT"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 2,
-							[3] = 6,
-							[4] = 151,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["Mi-8MT"]
 					["SA342Mistral"] = 
 					{
 						["initialAmount"] = 100,
@@ -3211,6 +3212,30 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["SA342Mistral"]
+					["Mi-8MT"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 2,
+							[3] = 6,
+							[4] = 151,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Mi-8MT"]
+					["Mi-28N"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 2,
+							[3] = 6,
+							[4] = 341,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Mi-28N"]
 					["Mi-24V"] = 
 					{
 						["initialAmount"] = 100,
@@ -3259,7 +3284,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Ka-50"]
-					["AH-64D"] = 
+					["OH58D"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -3267,10 +3292,10 @@ warehouses =
 							[1] = 1,
 							[2] = 2,
 							[3] = 6,
-							[4] = 158,
+							[4] = 336,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["AH-64D"]
+					}, -- end of ["OH58D"]
 					["CH-47Fbl1"] = 
 					{
 						["initialAmount"] = 100,
@@ -3307,30 +3332,6 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["AH-1W"]
-					["SA342M"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 2,
-							[3] = 6,
-							[4] = 289,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["SA342M"]
-					["Mi-26"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 2,
-							[3] = 25,
-							[4] = 153,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["Mi-26"]
 					["Ka-27"] = 
 					{
 						["initialAmount"] = 100,
@@ -3343,6 +3344,30 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Ka-27"]
+					["SA342M"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 2,
+							[3] = 6,
+							[4] = 289,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["SA342M"]
+					["OH-58D"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 2,
+							[3] = 6,
+							[4] = 168,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["OH-58D"]
 					["Ka-50_3"] = 
 					{
 						["initialAmount"] = 100,
@@ -3367,18 +3392,18 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["SH-60B"]
-					["OH-58D"] = 
+					["Mi-26"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
 						{
 							[1] = 1,
 							[2] = 2,
-							[3] = 6,
-							[4] = 168,
+							[3] = 25,
+							[4] = 153,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["OH-58D"]
+					}, -- end of ["Mi-26"]
 					["AH-64A"] = 
 					{
 						["initialAmount"] = 100,
@@ -3403,18 +3428,19 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["UH-1H"]
-					["Mi-28N"] = 
+					["UH-60L"] = 
 					{
 						["initialAmount"] = 100,
+						["linkDynTempl"] = 0,
 						["wsType"] = 
 						{
 							[1] = 1,
 							[2] = 2,
 							[3] = 6,
-							[4] = 341,
+							[4] = 349,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["Mi-28N"]
+					}, -- end of ["UH-60L"]
 				}, -- end of ["helicopters"]
 				["planes"] = 
 				{
@@ -3442,19 +3468,6 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["L-39ZA"]
-					["B-17G"] = 
-					{
-						["initialAmount"] = 100,
-						["linkDynTempl"] = 0,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 4,
-							[4] = 294,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["B-17G"]
 					["F4U-1D_CW"] = 
 					{
 						["initialAmount"] = 100,
@@ -3563,7 +3576,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["F-15ESE"]
-					["Su-30"] = 
+					["F/A-18C"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -3571,10 +3584,10 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 13,
+							[4] = 53,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["Su-30"]
+					}, -- end of ["F/A-18C"]
 					["QF-4E"] = 
 					{
 						["initialAmount"] = 100,
@@ -3624,7 +3637,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Tu-142"]
-					["M-2000C"] = 
+					["F-15E"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -3632,10 +3645,10 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 284,
+							[4] = 59,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["M-2000C"]
+					}, -- end of ["F-15E"]
 					["B-52H"] = 
 					{
 						["initialAmount"] = 100,
@@ -3672,7 +3685,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["A-4E-C"]
-					["AJS37"] = 
+					["P-47D-30bl1"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -3680,10 +3693,10 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 265,
+							[4] = 261,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["AJS37"]
+					}, -- end of ["P-47D-30bl1"]
 					["Tornado IDS"] = 
 					{
 						["initialAmount"] = 100,
@@ -3708,18 +3721,18 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["IL-78M"]
-					["MiG-15bis"] = 
+					["A-20G"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
 						{
 							[1] = 1,
 							[2] = 1,
-							[3] = 1,
-							[4] = 286,
+							[3] = 4,
+							[4] = 263,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-15bis"]
+					}, -- end of ["A-20G"]
 					["MiG-25RBT"] = 
 					{
 						["initialAmount"] = 100,
@@ -3780,18 +3793,18 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["KC-135"]
-					["Mirage-F1BQ"] = 
+					["MiG-25PD"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
 						{
 							[1] = 1,
 							[2] = 1,
-							[3] = 1,
-							[4] = 321,
+							[3] = 3,
+							[4] = 24,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["Mirage-F1BQ"]
+					}, -- end of ["MiG-25PD"]
 					["F-14A-135-GR"] = 
 					{
 						["initialAmount"] = 100,
@@ -3828,7 +3841,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["F-15C"]
-					["Tornado GR4"] = 
+					["F-16A MLU"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -3836,10 +3849,10 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 10,
+							[4] = 52,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["Tornado GR4"]
+					}, -- end of ["F-16A MLU"]
 					["Mirage-F1BD"] = 
 					{
 						["initialAmount"] = 100,
@@ -3864,18 +3877,18 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1M-EE"]
-					["Christen Eagle II"] = 
+					["An-30M"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
 						{
 							[1] = 1,
 							[2] = 1,
-							[3] = 1,
-							[4] = 274,
+							[3] = 5,
+							[4] = 40,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["Christen Eagle II"]
+					}, -- end of ["An-30M"]
 					["MQ-9 Reaper"] = 
 					{
 						["initialAmount"] = 100,
@@ -3888,7 +3901,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["MQ-9 Reaper"]
-					["Hawk"] = 
+					["F-5E-3_FC"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -3896,10 +3909,10 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 281,
+							[4] = 331,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["Hawk"]
+					}, -- end of ["F-5E-3_FC"]
 					["Mirage-F1EQ"] = 
 					{
 						["initialAmount"] = 100,
@@ -4286,6 +4299,18 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1EDA"]
+					["Mirage-F1ED"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 315,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Mirage-F1ED"]
 					["WingLoong-I"] = 
 					{
 						["initialAmount"] = 100,
@@ -4298,30 +4323,30 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["WingLoong-I"]
-					["MiG-31"] = 
+					["TF-51D"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
 						{
 							[1] = 1,
 							[2] = 1,
-							[3] = 3,
-							[4] = 9,
+							[3] = 1,
+							[4] = 65,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-31"]
-					["An-30M"] = 
+					}, -- end of ["TF-51D"]
+					["MiG-15bis_FC"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
 						{
 							[1] = 1,
 							[2] = 1,
-							[3] = 5,
-							[4] = 40,
+							[3] = 1,
+							[4] = 333,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["An-30M"]
+					}, -- end of ["MiG-15bis_FC"]
 					["S-3B Tanker"] = 
 					{
 						["initialAmount"] = 100,
@@ -4358,30 +4383,18 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["JF-17"]
-					["F-5E-3_FC"] = 
+					["MiG-31"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
 						{
 							[1] = 1,
 							[2] = 1,
-							[3] = 1,
-							[4] = 331,
+							[3] = 3,
+							[4] = 9,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["F-5E-3_FC"]
-					["Mirage-F1CT"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 318,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["Mirage-F1CT"]
+					}, -- end of ["MiG-31"]
 					["Mirage-F1CZ"] = 
 					{
 						["initialAmount"] = 100,
@@ -4394,7 +4407,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1CZ"]
-					["Mirage-F1DDA"] = 
+					["Mirage-F1C-200"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -4402,23 +4415,11 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 323,
+							[4] = 306,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["Mirage-F1DDA"]
-					["A-20G"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 4,
-							[4] = 263,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["A-20G"]
-					["F-16C bl.52d"] = 
+					}, -- end of ["Mirage-F1C-200"]
+					["MiG-15bis"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -4426,10 +4427,34 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 7,
+							[4] = 286,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["F-16C bl.52d"]
+					}, -- end of ["MiG-15bis"]
+					["F4U-1D"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 339,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["F4U-1D"]
+					["Mirage-F1BQ"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 321,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Mirage-F1BQ"]
 					["Yak-52"] = 
 					{
 						["initialAmount"] = 100,
@@ -4466,18 +4491,6 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["FA-18C_hornet"]
-					["Mirage-F1CJ"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 312,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["Mirage-F1CJ"]
 					["Tu-95MS"] = 
 					{
 						["initialAmount"] = 100,
@@ -4490,7 +4503,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Tu-95MS"]
-					["TF-51D"] = 
+					["Mirage-F1DDA"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -4498,10 +4511,22 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 65,
+							[4] = 323,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["TF-51D"]
+					}, -- end of ["Mirage-F1DDA"]
+					["Mirage-F1CJ"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 312,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Mirage-F1CJ"]
 					["FW-190A8"] = 
 					{
 						["initialAmount"] = 100,
@@ -4526,18 +4551,18 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1CK"]
-					["E-3A"] = 
+					["Mirage-F1JA"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
 						{
 							[1] = 1,
 							[2] = 1,
-							[3] = 5,
-							[4] = 27,
+							[3] = 1,
+							[4] = 309,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["E-3A"]
+					}, -- end of ["Mirage-F1JA"]
 					["P-47D-30"] = 
 					{
 						["initialAmount"] = 100,
@@ -4550,7 +4575,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["P-47D-30"]
-					["MiG-27K"] = 
+					["Mirage-F1CT"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -4558,10 +4583,10 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 11,
+							[4] = 318,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-27K"]
+					}, -- end of ["Mirage-F1CT"]
 					["A-10C"] = 
 					{
 						["initialAmount"] = 100,
@@ -4586,7 +4611,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["A-10A"]
-					["Mirage-F1ED"] = 
+					["MiG-29S"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -4594,10 +4619,10 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 315,
+							[4] = 50,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["Mirage-F1ED"]
+					}, -- end of ["MiG-29S"]
 					["P-51D"] = 
 					{
 						["initialAmount"] = 100,
@@ -4610,54 +4635,6 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["P-51D"]
-					["Mirage-F1BE"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 320,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["Mirage-F1BE"]
-					["F4U-1D"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 339,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["F4U-1D"]
-					["Mirage-F1CH"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 308,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["Mirage-F1CH"]
-					["Su-24M"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 12,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["Su-24M"]
 					["Mirage-F1B"] = 
 					{
 						["initialAmount"] = 100,
@@ -4670,6 +4647,54 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1B"]
+					["Mirage-F1EH"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 307,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Mirage-F1EH"]
+					["Mirage-F1CH"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 308,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Mirage-F1CH"]
+					["F-16C bl.52d"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 7,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["F-16C bl.52d"]
+					["P-51D-30-NA"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 64,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["P-51D-30-NA"]
 					["F-14B"] = 
 					{
 						["initialAmount"] = 100,
@@ -4718,7 +4743,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["C-130"]
-					["VSN_F104C"] = 
+					["Tornado GR4"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -4726,22 +4751,22 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 353,
+							[4] = 10,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["VSN_F104C"]
-					["Mirage-F1JA"] = 
+					}, -- end of ["Tornado GR4"]
+					["E-3A"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
 						{
 							[1] = 1,
 							[2] = 1,
-							[3] = 1,
-							[4] = 309,
+							[3] = 5,
+							[4] = 27,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["Mirage-F1JA"]
+					}, -- end of ["E-3A"]
 					["J-11A"] = 
 					{
 						["initialAmount"] = 100,
@@ -4754,7 +4779,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["J-11A"]
-					["MiG-15bis_FC"] = 
+					["Su-24M"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -4762,10 +4787,10 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 333,
+							[4] = 12,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["MiG-15bis_FC"]
+					}, -- end of ["Su-24M"]
 					["F-14A"] = 
 					{
 						["initialAmount"] = 100,
@@ -4790,79 +4815,6 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["SpitfireLFMkIX"]
-					["MiG-25PD"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 3,
-							[4] = 24,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["MiG-25PD"]
-					["B-1B"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 2,
-							[4] = 19,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["B-1B"]
-					["MiG-29S"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 50,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["MiG-29S"]
-					["MiG-19P"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 287,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["MiG-19P"]
-					["C-47"] = 
-					{
-						["initialAmount"] = 100,
-						["linkDynTempl"] = 0,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 5,
-							[4] = 299,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["C-47"]
-					["Mirage-F1C-200"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 306,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["Mirage-F1C-200"]
 					["MosquitoFBMkVI"] = 
 					{
 						["initialAmount"] = 100,
@@ -4875,6 +4827,80 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["MosquitoFBMkVI"]
+					["B-1B"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 2,
+							[4] = 19,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["B-1B"]
+					["Hercules"] = 
+					{
+						["initialAmount"] = 100,
+						["linkDynTempl"] = 0,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 5,
+							[4] = 348,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Hercules"]
+					["Christen Eagle II"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 274,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Christen Eagle II"]
+					["Su-30"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 13,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Su-30"]
+					["C-130J-30"] = 
+					{
+						["initialAmount"] = 100,
+						["linkDynTempl"] = 0,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 5,
+							[4] = 344,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["C-130J-30"]
+					["MiG-19P"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 287,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["MiG-19P"]
 					["L-39C"] = 
 					{
 						["initialAmount"] = 100,
@@ -4899,7 +4925,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Yak-40"]
-					["P-51D-30-NA"] = 
+					["VSN_F104C"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -4907,11 +4933,11 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 64,
+							[4] = 353,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["P-51D-30-NA"]
-					["Mirage-F1AZ"] = 
+					}, -- end of ["VSN_F104C"]
+					["AJS37"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -4919,10 +4945,10 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 335,
+							[4] = 265,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["Mirage-F1AZ"]
+					}, -- end of ["AJS37"]
 					["MiG-29G"] = 
 					{
 						["initialAmount"] = 100,
@@ -4947,7 +4973,7 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["Mirage-F1EE"]
-					["F-16A MLU"] = 
+					["Mirage-F1AZ"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -4955,11 +4981,11 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 52,
+							[4] = 335,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["F-16A MLU"]
-					["P-47D-30bl1"] = 
+					}, -- end of ["Mirage-F1AZ"]
+					["M-2000C"] = 
 					{
 						["initialAmount"] = 100,
 						["wsType"] = 
@@ -4967,46 +4993,10 @@ warehouses =
 							[1] = 1,
 							[2] = 1,
 							[3] = 1,
-							[4] = 261,
+							[4] = 284,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["P-47D-30bl1"]
-					["F/A-18C"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 53,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["F/A-18C"]
-					["C-101CC"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 6,
-							[4] = 270,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["C-101CC"]
-					["F-15E"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 59,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["F-15E"]
+					}, -- end of ["M-2000C"]
 					["P-47D-40"] = 
 					{
 						["initialAmount"] = 100,
@@ -5019,66 +5009,31 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["P-47D-40"]
-					["A-50"] = 
+					["C-101CC"] = 
 					{
 						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 6,
+							[4] = 270,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["C-101CC"]
+					["KC130J"] = 
+					{
+						["initialAmount"] = 100,
+						["linkDynTempl"] = 0,
 						["wsType"] = 
 						{
 							[1] = 1,
 							[2] = 1,
 							[3] = 5,
-							[4] = 26,
+							[4] = 350,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["A-50"]
-					["Mirage-F1EH"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 307,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["Mirage-F1EH"]
-					["IL-76MD"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 5,
-							[4] = 30,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["IL-76MD"]
-					["Bf-109K-4"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 257,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["Bf-109K-4"]
-					["Su-34"] = 
-					{
-						["initialAmount"] = 100,
-						["wsType"] = 
-						{
-							[1] = 1,
-							[2] = 1,
-							[3] = 1,
-							[4] = 20,
-						}, -- end of ["wsType"]
-						["unlimited"] = false,
-					}, -- end of ["Su-34"]
+					}, -- end of ["KC130J"]
 					["F-5E"] = 
 					{
 						["initialAmount"] = 100,
@@ -5091,25 +5046,796 @@ warehouses =
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
 					}, -- end of ["F-5E"]
-					["Ju-88A4"] = 
+					["A-50"] = 
 					{
 						["initialAmount"] = 100,
-						["linkDynTempl"] = 0,
 						["wsType"] = 
 						{
 							[1] = 1,
 							[2] = 1,
-							[3] = 4,
-							[4] = 295,
+							[3] = 5,
+							[4] = 26,
 						}, -- end of ["wsType"]
 						["unlimited"] = false,
-					}, -- end of ["Ju-88A4"]
+					}, -- end of ["A-50"]
+					["Hawk"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 281,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Hawk"]
+					["IL-76MD"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 5,
+							[4] = 30,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["IL-76MD"]
+					["Mirage-F1BE"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 320,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Mirage-F1BE"]
+					["Su-34"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 20,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Su-34"]
+					["Bf-109K-4"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 257,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["Bf-109K-4"]
+					["MiG-27K"] = 
+					{
+						["initialAmount"] = 100,
+						["wsType"] = 
+						{
+							[1] = 1,
+							[2] = 1,
+							[3] = 1,
+							[4] = 11,
+						}, -- end of ["wsType"]
+						["unlimited"] = false,
+					}, -- end of ["MiG-27K"]
 				}, -- end of ["planes"]
 			}, -- end of ["aircrafts"]
 			["weapons"] = {},
 			["OperatingLevel_Fuel"] = 10,
 			["size"] = 100,
 		}, -- end of [32]
+		[33] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "NEUTRAL",
+			["dynamicCargo"] = false,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [33]
+		[34] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "NEUTRAL",
+			["dynamicCargo"] = false,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [34]
+		[35] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "NEUTRAL",
+			["dynamicCargo"] = false,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [35]
+		[36] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "NEUTRAL",
+			["dynamicCargo"] = false,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [36]
+		[37] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "NEUTRAL",
+			["dynamicCargo"] = false,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [37]
+		[38] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "NEUTRAL",
+			["dynamicCargo"] = false,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [38]
+		[39] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "NEUTRAL",
+			["dynamicCargo"] = false,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [39]
+		[40] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "NEUTRAL",
+			["dynamicCargo"] = false,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [40]
+		[41] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "NEUTRAL",
+			["dynamicCargo"] = false,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [41]
+		[42] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "NEUTRAL",
+			["dynamicCargo"] = false,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [42]
+		[43] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "NEUTRAL",
+			["dynamicCargo"] = false,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [43]
+		[44] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "NEUTRAL",
+			["dynamicCargo"] = false,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [44]
+		[45] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "NEUTRAL",
+			["dynamicCargo"] = false,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [45]
+		[46] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "NEUTRAL",
+			["dynamicCargo"] = false,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [46]
+		[47] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "NEUTRAL",
+			["dynamicCargo"] = false,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [47]
+		[48] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "NEUTRAL",
+			["dynamicCargo"] = false,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [48]
+		[49] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "NEUTRAL",
+			["dynamicCargo"] = false,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [49]
+		[50] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "NEUTRAL",
+			["dynamicCargo"] = false,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [50]
+		[51] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "NEUTRAL",
+			["dynamicCargo"] = false,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [51]
+		[52] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "NEUTRAL",
+			["dynamicCargo"] = false,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [52]
 		[53] = 
 		{
 			["allowHotStart"] = false,
@@ -5985,6 +6711,41 @@ warehouses =
 			["OperatingLevel_Fuel"] = 10,
 			["size"] = 100,
 		}, -- end of [78]
+		[79] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "NEUTRAL",
+			["dynamicCargo"] = false,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [79]
 		[80] = 
 		{
 			["allowHotStart"] = false,
@@ -6230,6 +6991,41 @@ warehouses =
 			["OperatingLevel_Fuel"] = 10,
 			["size"] = 100,
 		}, -- end of [86]
+		[87] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "NEUTRAL",
+			["dynamicCargo"] = false,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [87]
 		[89] = 
 		{
 			["allowHotStart"] = false,
@@ -7455,6 +8251,41 @@ warehouses =
 			["OperatingLevel_Fuel"] = 10,
 			["size"] = 100,
 		}, -- end of [124]
+		[125] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "NEUTRAL",
+			["dynamicCargo"] = false,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [125]
 		[126] = 
 		{
 			["allowHotStart"] = false,
@@ -7630,6 +8461,41 @@ warehouses =
 			["OperatingLevel_Fuel"] = 10,
 			["size"] = 100,
 		}, -- end of [130]
+		[131] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "NEUTRAL",
+			["dynamicCargo"] = false,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [131]
 		[132] = 
 		{
 			["allowHotStart"] = false,
@@ -7700,6 +8566,111 @@ warehouses =
 			["OperatingLevel_Fuel"] = 10,
 			["size"] = 100,
 		}, -- end of [134]
+		[135] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "NEUTRAL",
+			["dynamicCargo"] = false,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [135]
+		[136] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "NEUTRAL",
+			["dynamicCargo"] = false,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [136]
+		[137] = 
+		{
+			["allowHotStart"] = false,
+			["unlimitedMunitions"] = true,
+			["methanol_mixture"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["methanol_mixture"]
+			["OperatingLevel_Air"] = 10,
+			["diesel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["diesel"]
+			["speed"] = 16.666666,
+			["dynamicSpawn"] = false,
+			["unlimitedAircrafts"] = true,
+			["unlimitedFuel"] = true,
+			["jet_fuel"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["jet_fuel"]
+			["periodicity"] = 30,
+			["suppliers"] = {},
+			["coalition"] = "NEUTRAL",
+			["dynamicCargo"] = false,
+			["OperatingLevel_Eqp"] = 10,
+			["gasoline"] = 
+			{
+				["InitFuel"] = 100,
+			}, -- end of ["gasoline"]
+			["aircrafts"] = {},
+			["weapons"] = {},
+			["OperatingLevel_Fuel"] = 10,
+			["size"] = 100,
+		}, -- end of [137]
 		[139] = 
 		{
 			["allowHotStart"] = false,
@@ -8680,41 +9651,6 @@ warehouses =
 			["OperatingLevel_Fuel"] = 10,
 			["size"] = 100,
 		}, -- end of [166]
-		[167] = 
-		{
-			["allowHotStart"] = false,
-			["unlimitedMunitions"] = true,
-			["methanol_mixture"] = 
-			{
-				["InitFuel"] = 100,
-			}, -- end of ["methanol_mixture"]
-			["OperatingLevel_Air"] = 10,
-			["diesel"] = 
-			{
-				["InitFuel"] = 100,
-			}, -- end of ["diesel"]
-			["speed"] = 16.666666,
-			["dynamicSpawn"] = false,
-			["unlimitedAircrafts"] = true,
-			["unlimitedFuel"] = true,
-			["jet_fuel"] = 
-			{
-				["InitFuel"] = 100,
-			}, -- end of ["jet_fuel"]
-			["periodicity"] = 30,
-			["suppliers"] = {},
-			["coalition"] = "RED",
-			["dynamicCargo"] = false,
-			["OperatingLevel_Eqp"] = 10,
-			["gasoline"] = 
-			{
-				["InitFuel"] = 100,
-			}, -- end of ["gasoline"]
-			["aircrafts"] = {},
-			["weapons"] = {},
-			["OperatingLevel_Fuel"] = 10,
-			["size"] = 100,
-		}, -- end of [167]
 		[168] = 
 		{
 			["allowHotStart"] = false,
@@ -11025,41 +11961,6 @@ warehouses =
 			["OperatingLevel_Fuel"] = 10,
 			["size"] = 100,
 		}, -- end of [254]
-		[255] = 
-		{
-			["allowHotStart"] = false,
-			["unlimitedMunitions"] = true,
-			["methanol_mixture"] = 
-			{
-				["InitFuel"] = 100,
-			}, -- end of ["methanol_mixture"]
-			["OperatingLevel_Air"] = 10,
-			["diesel"] = 
-			{
-				["InitFuel"] = 100,
-			}, -- end of ["diesel"]
-			["speed"] = 16.666666,
-			["dynamicSpawn"] = false,
-			["unlimitedAircrafts"] = true,
-			["unlimitedFuel"] = true,
-			["jet_fuel"] = 
-			{
-				["InitFuel"] = 100,
-			}, -- end of ["jet_fuel"]
-			["periodicity"] = 30,
-			["suppliers"] = {},
-			["coalition"] = "BLUE",
-			["dynamicCargo"] = false,
-			["OperatingLevel_Eqp"] = 10,
-			["gasoline"] = 
-			{
-				["InitFuel"] = 100,
-			}, -- end of ["gasoline"]
-			["aircrafts"] = {},
-			["weapons"] = {},
-			["OperatingLevel_Fuel"] = 10,
-			["size"] = 100,
-		}, -- end of [255]
 	}, -- end of ["airports"]
 	["warehouses"] = {},
 } -- end of warehouses
